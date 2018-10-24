@@ -1,0 +1,44 @@
+url: https://www.loudas.com
+baseurl: /
+plugins: 
+    - jekyll-paginate
+    - jekyll-feed
+site_name: "The life and times of Paul Willard"
+timezone: Pacific/Auckland
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+        - assets/css
+        - assets/vendor
+    style: compressed
+exclude: [node_modules, Gemfile, package.json, package-lock.json, .gitignore, README.md, ctl.sh]
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+collections:
+    authors:
+        type: "authors"
+        layout: "author"
+        output: true
+paginate: 5
+assets:
+  compress:
+    css:  sass
+    js:   uglifier
+repository: "TerminalAddict/loudas.com"
+staticman:
+    branch: "master"
