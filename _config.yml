@@ -3,6 +3,7 @@ baseurl: /
 plugins: 
     - jekyll-paginate
     - jekyll-feed
+    - jekyll-archives
 site_name: "The life and times of Paul Willard"
 timezone: Pacific/Auckland
 sass:
