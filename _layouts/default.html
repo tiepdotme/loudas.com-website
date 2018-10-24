@@ -1,19 +1,5 @@
-i<html lang="en">
-	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title id="pageTitle">Jekyll Getting Started</title>
-    {% capture styles %}
-    {% include main.css %}
-    {% endcapture %}
-    <style>
-    {{ styles | scssify }}
-    </style>
-    {% include favicon.html %}
-	</head>
+{% include header_sidebar.html %}
 
-	<body>
-		{{ content }}
-	<script src="{{'/assets/js/bundle.js' | prepend: site.baseurl}}"></script>
-	</body>
-</html>
+{{ content }}
+
+{% include footer_sidebar.html %}

@@ -1,5 +1,5 @@
 url: https://www.loudas.com
-baseurl: /
+# baseurl: /
 plugins: 
     - jekyll-paginate
     - jekyll-feed

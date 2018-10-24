@@ -1,3 +1,4 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 @import "highlight-jekyll.scss";
+@import "ta_custom.scss"
