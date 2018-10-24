@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title id="pafeTitle">TA Skeleton</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="dist/ta_custom.css">
+  </head>
+  <body>
+    <nav class="navbar sticky-top ta_nav"><a class="navbar-brand" href="#"><img src="images/ta-bearded.png" /> &nbsp; <span>LoudAs.com</span></a>
+      <div class="d-flex flex-row align-items-center">
+        <a class="searchIcon m-2" href="#" data-toggle="modal" data-target="#ModalSearch" id="modalSearchButton"><img src="images/search.svg" alt="Search... " class="searchIcon"></a>
+        <button class="navbar-toggler toggler-spring m-2"><span class="navbar-toggler-icon"><!----></span></button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-sm-end">
+        <ul class="navbar-nav navbar-mobile mr-0">
+          <li class="nav-item nav-item-fill"><a class="nav-link p-1 rounded" href="index.html">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link  p-1 rounded" href="#">Videos &raquo;</a>
+            <ul class="navbar-nav submenu">
+              <li class="nav-item nav-item-fill"><a class="nav-link p-1 rounded" href="#">General Videos</a></li>
+              <li class="nav-item nav-item-fill"><a class="nav-link p-1 rounded" href="#">Dance Videos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item nav-item-fill"><a class="nav-link p-1 rounded" href="#">Pics</a></li>
+          <li class="nav-item nav-item-fill active"><a class="nav-link p-1 rounded" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid" style="background: url('images/700.jpeg') no-repeat center top / cover;">
+      <div class="container">
+        <h1>Example full width page with jumbotron</h1>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="fluidcontainer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12" id="pwnzContainer">
+
+            <!-- main body (loop) -->
+
+            <h2>About Paul</h2>
+            <p>Here’s a wee bit about me.</p>
+            <p>Firstly about the name TerminalAddict. Many moons ago I was in a chat room (#musb on freednode) chatting with a bloke called DragonMage. DragonMage is a member of <a href="http://mandrivausers.org" target="_blank">http://mandrivausers.org</a></p>
+            <p>Well I was helping some people with Mandrake (or some other distro, I can’t remember) and all my help was telling them to open a command line interface (CLI) which is also called a terminal, so soon enough DragonMage started saying I was addicted to the terminal.</p>
+            <p>The name developed from there, and I thought it was very appropriate for the following reasons</p>
+            <ul>
+              <li>I use a terminal for everything</li>
+              <li>I am a smoker, which could be terminal, and I am was addicted</li>
+              <li>I ride motorcycles, which could be terminal, and I am addicted</li>
+              <li>Many of my other hobbies / habits could be described the same way</li>
+            </ul>
+            <p>So I stuck with the name, also it wasn’t being used anywhere, by anyone else, which is pretty amazing in this day and age.</p>
+
+            <!-- end main body (loop) -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ta_nav-mobile">
+      <div class="ta_nav-mobile-overlay"></div>
+      <div class="navbar"></div>
+    </div>
+
+    <!-- Modal -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="modal fade" id="ModalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalSearchLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" style="max-width: 80% !important" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="ModalSearchLabel">Searching ...</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <input type="text" name="query" id="query" placeholder="Search this website ..." class="form-control" />
+                        <ul class="list-group" id="queryResult"></ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Modal -->  
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="dist/ta_nav.js"></script>
+  </body>
+</html>
