@@ -34,7 +34,7 @@ $(document).ready(function(){
                     } else {
                         var highlight = excerpt;
                     }
-                    $('#queryResult').append('<li class="list-group-item link-class"><img src="/assets/images/search.svg" alt="search" class="searchIcon" /><a class="pl-5" href="'+value.url+'">'+value.title+'<\/a><span class="text-muted"> ...'+highlight+'... <\/span><a href="'+value.url+'">read more &rArr;<\/a><\/li>');
+                    $('#queryResult').append('<li class="list-group-item link-class"><img src="/assets/images/search-blue.svg" alt="search" class="searchIcon" /><a class="pl-5" href="'+value.url+'">'+value.title+'<\/a><span class="text-muted"> ...'+highlight+'... <\/span><a href="'+value.url+'">read more &rArr;<\/a><\/li>');
                 }
             });
         });

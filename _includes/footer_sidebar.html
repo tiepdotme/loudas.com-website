@@ -3,10 +3,10 @@
             <aside>
               <h4>Categories</h4>
               <ul class="list-group">
-                <li class="list-group-item">Linux</li>
-                <li class="list-group-item">PHP</li>
-                <li class="list-group-item">Mikrotik</li>
-                <li class="list-group-item">Bash</li>
+                {% for category in site.categories %}
+                {% capture category_name %}{{ category | first }}{% endcapture %}
+                <li class="list-group-item">{{ category_name | slugsize }}</li>
+                {% endfor %}
               </ul> 
             </aside>
             <aside>

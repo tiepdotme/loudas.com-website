@@ -42,3 +42,12 @@ assets:
 repository: "TerminalAddict/loudas.com"
 staticman:
     branch: "master"
+jekyll-archives:
+  enabled: []
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
