@@ -1,20 +1,26 @@
-<nav class="navbar sticky-top ta_nav"><a class="navbar-brand" href="#"><img src="{{ site.url }}/assets/images/ta-bearded.png" /> &nbsp; <span>LoudAs.com</span></a>
+    <nav class="navbar sticky-top ta_nav"><a class="navbar-brand" href="/" data-original-title="{{ site.site_name }}" data-toggle="tooltip"><img src="{{ site.url }}/assets/images/ta-bearded.png" /> &nbsp; <span>LoudAs.com</span></a>
       <div class="d-flex flex-row align-items-center">
-          <a class="searchIcon m-2" href="#" data-toggle="modal" data-target="#ModalSearch" id="modalSearchButton"><img src="{{ site.url }}/assets/images/search.svg" alt="Search... " class="searchIcon"></a>
+          {% if page.url != "/404.html" %}
+          <span class="searchIconT" data-original-title="Search {{ site.url }}" data-toggle="tooltip"><a class="searchIcon m-2" href="#" data-toggle="modal" data-target="#ModalSearch" id="modalSearchButton"><img src="{{ site.url }}/assets/images/search.svg" alt="Search... " class="searchIcon"></a></span>
+          {% endif %}
         <button class="navbar-toggler toggler-spring m-2"><span class="navbar-toggler-icon"><!----></span></button>
       </div>
       <div class="collapse navbar-collapse justify-content-sm-end">
         <ul class="navbar-nav navbar-mobile mr-0">
-          <li class="nav-item nav-item-fill active"><a class="nav-link p-1 rounded" href="#">Home</a></li>
+          {% for item in site.data.navigation %}
+           {% if item.subcategories != null %}
           <li class="nav-item dropdown">
-            <a class="nav-link  p-1 rounded" href="#">Videos &raquo;</a>
-            <ul class="navbar-nav submenu">
-              <li class="nav-item nav-item-fill"><a class="nav-link p-1 rounded" href="#">General Videos</a></li>
-              <li class="nav-item nav-item-fill"><a class="nav-link p-1 rounded" href="#">Dance Videos</a></li>
-            </ul>
+              <a class="nav-link  p-1 rounded" href="#">{{ item.name }} &raquo;</a>
+              <ul class="navbar-nav submenu">
+              {% for subcategory in item.subcategories %}
+              <li class="nav-item nav-item-fill"><a class="nav-link p-1 rounded {% if page.url == subcategory.subhref %} active{% endif %}" href="{{ subcategory.subhref }}" title="{{ item.name }}" data-toggle="tooltip" data-placement="right">{{ subcategory.subtitle }}</a></li>
+              {% endfor %}
+              </ul>
           </li>
-          <li class="nav-item nav-item-fill"><a class="nav-link p-1 rounded" href="#">Pics</a></li>
-          <li class="nav-item nav-item-fill"><a class="nav-link p-1 rounded" href="contact.html">Contact</a></li>
+           {% else %}
+           <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a title="{{ item.name }}" data-toggle="tooltip" data-placement="right" class="nav-link p-1 rounded" href="{{ item.link }}">{{ item.name }}</a></li>
+           {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </nav>

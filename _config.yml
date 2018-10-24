@@ -1,5 +1,5 @@
 url: https://www.loudas.com
-# baseurl: /
+baseurl: /
 plugins: 
     - jekyll-paginate
     - jekyll-feed
@@ -12,7 +12,7 @@ sass:
         - assets/css
         - assets/vendor
     style: compressed
-exclude: [node_modules, Gemfile, package.json, package-lock.json, .gitignore, README.md, ctl.sh]
+exclude: [node_modules, Gemfile, package.json, package-lock.json, .gitignore, README.md, ctl.sh, static_prototype]
 defaults:
   - scope:
       path: ""
