@@ -3,8 +3,8 @@
 - name: Videos
   subcategories:
       - subtitle: General Videos
-        subhref: #
+        subhref: "general_videos.html"
       - subtitle: Dance Videos
-        subhref: #
+        subhref: "#"
 - name: Contact
   link: /contact.html

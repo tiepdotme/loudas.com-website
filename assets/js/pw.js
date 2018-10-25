@@ -34,7 +34,7 @@ $(document).ready(function(){
                     } else {
                         var highlight = excerpt;
                     }
-                    $('#queryResult').append('<li class="list-group-item link-class"><img src="/assets/images/search.svg" alt="search" class="searchIcon" /><a class="pl-5" href="'+value.url+'">'+value.title+'<\/a><span class="text-muted"> ...'+highlight+'... <\/span><a href="'+value.url+'">read more &rArr;<\/a><\/li>');
+                    $('#queryResult').append('<li class="list-group-item link-class"><img src="/assets/images/search-blue.svg" alt="search" class="searchIcon" /><a class="pl-5" href="'+value.url+'">'+value.title+'<\/a><span class="text-muted"> ...'+highlight+'... <\/span><a href="'+value.url+'">read more &rArr;<\/a><\/li>');
                 }
             });
         });
@@ -48,15 +48,18 @@ $(document).ready(function(){
 $(".navbar-brand").mouseover(function(){
         $(this).tooltip('show');
 });
-$(".nav-link").mouseover(function(){
-        $(this).tooltip('show');
-});
 $(".searchIconT").mouseover(function(){
         $(this).tooltip('show');
 });
 
 $('a[data-mail]').on('click', function() {
         window.location = 'mailto:' + $(this).data('mail')+'@paulwillard.nz' + '?subject=Contact from website';
+});
+
+$('img[rel="lightbox"]').on('click', function() {
+    var url = $(this).attr('src').replace('thumbnails/','');
+    $('#lightboxModalBody').html('<img src="' + url +'" alt="" class="w-100" \/>');
+    $('#lightboxModal').modal('show');
 });
 
 // Static comments

@@ -6,7 +6,7 @@ BUNDLE=/home/paul/gems/bin/bundle
 JSBUNDLE_DIR=assets/js
 REMOTE_HOST=webhost1.hosting.netent.co.nz
 REMOTE_PATH=/var/www/html/loudas.com
-REMOTE_USER=root
+REMOTE_USER=paul
 
 VERSION="2018-10-15 v1.0"
 
@@ -67,8 +67,8 @@ PushLive () {
         exit 0
     fi
     rsync -avz --delete _site/* $REMOTE_USER@$REMOTE_HOST:$REMOTE_PATH
-    ssh $REMOTE_USER@$REMOTE_HOST "chown -R www-data:www-data $REMOTE_PATH"
-    ssh $REMOTE_USER@$REMOTE_HOST "sudo -u www-data php $REMOTE_PATH/assets/php/json.php > $REMOTE_PATH/assets/search.json"
+    # ssh $REMOTE_USER@$REMOTE_HOST "chown -R www-data:www-data $REMOTE_PATH"
+    ssh $REMOTE_USER@$REMOTE_HOST "php $REMOTE_PATH/assets/php/json.php > $REMOTE_PATH/assets/search.json"
 }
 
 case $1 in 

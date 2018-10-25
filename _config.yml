@@ -3,7 +3,11 @@ baseurl: /
 plugins: 
     - jekyll-paginate
     - jekyll-feed
+    - jekyll-archives
 site_name: "The life and times of Paul Willard"
+description: "Just another internet addict"
+thumbnails: "/assets/images/posts/thumbnails/"
+post-images: "/assets/images/posts/"
 timezone: Pacific/Auckland
 sass:
     load_paths:
@@ -12,7 +16,7 @@ sass:
         - assets/css
         - assets/vendor
     style: compressed
-exclude: [node_modules, Gemfile, package.json, package-lock.json, .gitignore, README.md, ctl.sh, static_prototype]
+exclude: [node_modules, Gemfile, package.json, package-lock.json, .gitignore, README.md, ctl.sh, static_prototype, mogrify_images_to_400px_wide.sh]
 defaults:
   - scope:
       path: ""
@@ -25,6 +29,7 @@ defaults:
     values:
       layout: "post"
       comments: true
+      author: "paul"
   - scope:
       path: ""
     values:
@@ -42,3 +47,12 @@ assets:
 repository: "TerminalAddict/loudas.com"
 staticman:
     branch: "master"
+jekyll-archives:
+  enabled: []
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'

@@ -371,3 +371,7 @@ nav.navbar div.flex-row {
     display: none;
     cursor: pointer;
 }
+
+img[rel~="lightbox"] {
+    cursor: pointer;
+}

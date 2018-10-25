@@ -3,10 +3,10 @@
             <aside>
               <h4>Categories</h4>
               <ul class="list-group">
-                <li class="list-group-item">Linux</li>
-                <li class="list-group-item">PHP</li>
-                <li class="list-group-item">Mikrotik</li>
-                <li class="list-group-item">Bash</li>
+                {% for category in site.categories %}
+                {% capture category_name %}{{ category | first }}{% endcapture %}
+                <li class="list-group-item">{{ category_name | slugsize }}</li>
+                {% endfor %}
               </ul> 
             </aside>
             <aside>
@@ -27,33 +27,8 @@
       <div class="navbar"></div>
     </div>
 
-    <!-- Modal -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="modal fade" id="ModalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalSearchLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" style="max-width: 80% !important" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title" id="ModalSearchLabel">Searching ...</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                        <input type="text" name="query" id="query" placeholder="Search this website ..." class="form-control" />
-                        <ul class="list-group" id="queryResult"></ul>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end Modal --> 
+    {% include search_modal.html %}
+
     <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left" data-animation="false">&uArr; Top</a>
 
     <script src="{{'assets/js/bundle.js' | absolute_url }}"></script>

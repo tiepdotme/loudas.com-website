@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title id="pageTitle">TA Skeleton</title>
+    <title id="pageTitle">{{ page.title }}</title>
 	{% capture styles %}
     {% include main.css %}
     {% endcapture %}
@@ -17,6 +17,6 @@
   <body>
 	{% include navigation.html %}
     <div class="container-fluid" id="fluidcontainer">
-      <div class="container">
+      <div class="container pb-5">
         <div class="row">
           <div class="col-md-9" id="pwnzContainer">
