@@ -2,6 +2,7 @@
 layout: page
 title: Get in touch with Paul
 comments: true
+slug: Contact-form.html
 ---
 
 <div class="row">
