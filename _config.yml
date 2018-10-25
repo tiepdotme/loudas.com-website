@@ -44,7 +44,7 @@ assets:
   compress:
     css:  sass
     js:   uglifier
-repository: "TerminalAddict/loudas.com"
+repository: "TerminalAddict/loudas.com-website"
 staticman:
     branch: "master"
 jekyll-archives:
