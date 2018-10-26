@@ -26,5 +26,8 @@ The name developed from there, and I thought it was very appropriate for the fol
 
 So I stuck with the name, also it wasn’t being used anywhere, by anyone else, which is pretty amazing in this day and age.
 
+Here's a couple of ways you can get in contact with me:  
+<abbr title="Phone">P:</abbr> <a href="tel:+6421638223">+6421638223</a><br />
+<abbr title="Email">E:</abbr> <a data-mail="paul" href="#">Send me an Email</a><br />
 </div>
 </div>
