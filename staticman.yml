@@ -12,7 +12,7 @@ comments:
   transforms:
           email     : md5
   name              : "Loudas.com Blog"
-  notifications.enabled : false
+  notifications.enabled : true
   generatedFields:
     date:
       type          : "date"
