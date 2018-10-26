@@ -17,8 +17,16 @@
         <fieldset class="p-2">
           <input class="w-100 rounded p-2" type="url" id="comment-form-url" name="fields[url]" tabindex="4" placeholder="My website is ... (optional)"/>
         </fieldset>
+        <fieldset class="p-2">
+            <p class="onoff">
+            <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email" checked>
+            <label for="comment-form-reply"></label>
+            </p>
+            <span class="notifyText">Notify me of replies</span>
+        </fieldset>
         <fieldset class="hidden">
           <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+          <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
           <input type="hidden" name="fields[hidden]"/>
         </fieldset>
         <!-- Start comment form alert messaging -->

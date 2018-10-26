@@ -28,5 +28,3 @@ So I stuck with the name, also it wasn’t being used anywhere, by anyone else, 
 
 </div>
 </div>
-
-{% include contact_form.html %}

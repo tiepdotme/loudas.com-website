@@ -6,6 +6,7 @@ comments:
   format            : "yaml"
   moderation        : true
   path              : "_data/comments/{options.slug}"
+  allowedOrigins    : ["www.loudas.com"]
   pullRequestBody   : "Hey Paul,\n\nHere's a new entry for your approval. :tada:\n\nMerge the pull request to accept it, or close it to send it away.\n\n:heart: Your friend [Staticman](https://comments.netent.co.nz) :muscle:\n\n---\n"
   timezone          : Pacific/Auckland
   requiredFields    : ['name', 'email', 'message']
