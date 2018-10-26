@@ -48,8 +48,8 @@ repository: "TerminalAddict/loudas.com-website"
 staticman:
     branch: "master"
 jekyll-archives:
-  enabled: []
-  layout: 'archive'
+  enabled: all
+  layout: archive
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'

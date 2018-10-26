@@ -4,7 +4,7 @@
 $website="https://www.loudas.com";
 $JsonArray=Array();
 
-$ignoredPages=Array($website.'/google320bf1ff354f76ce.html', $website.'/thanks.html', $website.'/categories/', $website.'/authors/paul.html', $website);
+$ignoredPages=Array($website.'/google320bf1ff354f76ce.html', $website.'/thanks.html', $website.'/categories/', $website.'/authors/paul.html', $website.'/');
 
 # load xml from downloaded version or server.xml
 $myXMLData=file_get_contents($website."/sitemap.xml");
@@ -36,10 +36,12 @@ foreach ($xml->url as $url_list) {
         $url=(!is_null((string)$url_list->loc) ? (string)$url_list->loc : NULL);
         $title=pageTitle((string)$url_list->loc);
         $content=pageContents((string)$url_list->loc);
-        if(!is_null($title) OR !is_null($content)) {
-            $JsonArray[$count]["url"]=(string)$url_list->loc;
-            $JsonArray[$count]["title"]=pageTitle((string)$url_list->loc);
-            $JsonArray[$count]["content"]=pageContents((string)$url_list->loc);
+        if(!is_null($title)) {
+            if(!is_null($content)) {
+                $JsonArray[$count]["url"]=(string)$url_list->loc;
+                $JsonArray[$count]["title"]=pageTitle((string)$url_list->loc);
+                $JsonArray[$count]["content"]=pageContents((string)$url_list->loc);
+            }
         }
         $count++;
     }
