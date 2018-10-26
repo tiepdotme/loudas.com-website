@@ -30,6 +30,7 @@ defaults:
       layout: "post"
       comments: "true"
       author: "paul"
+      categories: "General-life"
   - scope:
       path: ""
     values:

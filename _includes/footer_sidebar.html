@@ -14,8 +14,13 @@
               <ul class="list-group archivesList">
                   {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
                   {% for yearMonth in postsByYearMonth %}
-                  <li class="list-group-item"><a href="#">{{ yearMonth.name }}</a></li>
+                  <li class="list-group-item">
+                      {% for item in yearMonth.items limit: 1 %}
+                      <a href="{{ site.url }}/{{ item.date | date: '%Y/%m' }}">{{ yearMonth.name }}</a>
+                      {% endfor %}
+                  </li>
                   {% endfor %}
+                    <script>console.log('{{ postsByYearMonth | json }}')</script>
               </ul> 
             </aside>
           </div>
@@ -32,6 +37,5 @@
     <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left" data-animation="false">&uArr; Top</a>
 
     <script src="{{'assets/js/bundle.js' | absolute_url }}"></script>
-    <script>console.log('{{ site.archives | json }}')</script>
   </body>
 </html>
