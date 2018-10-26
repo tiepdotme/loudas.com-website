@@ -28,7 +28,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true
+      comments: "true"
       author: "paul"
   - scope:
       path: ""

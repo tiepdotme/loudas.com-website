@@ -14,9 +14,31 @@
 	{% seo title=false %}
 	{% include favicon.html %}
   </head>
-  <body>
+  <body class="single_post">
 	{% include navigation.html %}
     <div class="container-fluid" id="fluidcontainer">
-      <div class="container pb-5">
+      <div class="container">
         <div class="row">
           <div class="col-md-12" id="pwnzContainer">
+			<div class="row w-100">
+				<h1>{{page.title}}</h1>
+			</div>
+			<div class="row w-100 headline d-print-none">
+				<blockquote class="post-meta m-0 w-100 border-right border-top">
+					Posted on {{ page.date | date_to_string }} | Categories:
+					{% if post %}
+						{% assign categories = post.categories %}
+					{% else %}
+						{% assign categories = page.categories %}
+					{% endif %}
+					{% for category in categories %}
+						<a href="{{ site.url }}/categories/#{{category|slugize}}">{{category}}</a>
+					{% endfor %}
+
+			  {% assign author = site.authors | where: 'short_name', page.author | first %}
+			  {% if author %}
+			  <footer class="blockquote-footer p-0 m-0">by <a href="{{ site.url }}{{ author.url }}">{{ author.name }}</a></footer>
+			  {% endif %}
+				</blockquote>
+			</div>
+

@@ -2,20 +2,20 @@
           <div class="col-md-3"> <!-- sidebar -->
             <aside>
               <h4>Categories</h4>
-              <ul class="list-group">
+              <ul class="list-group categoriesList">
                 {% for category in site.categories %}
                 {% capture category_name %}{{ category | first }}{% endcapture %}
-                <li class="list-group-item">{{ category_name | slugsize }}</li>
+                <li class="list-group-item"><a href="{{ site.url }}/categories/#{{ category_name | slugize }}">{{ category_name | slugsize }}</a></li>
                 {% endfor %}
               </ul> 
             </aside>
             <aside>
               <h4>Archives</h4>
-              <ul class="list-group">
-                <li class="list-group-item">March</li>
-                <li class="list-group-item">April</li>
-                <li class="list-group-item">May</li>
-                <li class="list-group-item">December</li>
+              <ul class="list-group archivesList">
+                  {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
+                  {% for yearMonth in postsByYearMonth %}
+                  <li class="list-group-item">{{ yearMonth.name }}</li>
+                  {% endfor %}
               </ul> 
             </aside>
           </div>
