@@ -4,7 +4,7 @@
 $website="https://www.loudas.com";
 $JsonArray=Array();
 
-$ignoredPages=Array($website.'/google320bf1ff354f76ce.html', $website.'/thanks.html', $website.'/categories/');
+$ignoredPages=Array($website.'/google320bf1ff354f76ce.html', $website.'/thanks.html', $website.'/categories/', $website.'/authors/paul.html', $website);
 
 # load xml from downloaded version or server.xml
 $myXMLData=file_get_contents($website."/sitemap.xml");
