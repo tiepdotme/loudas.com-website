@@ -357,7 +357,7 @@ nav.navbar div.flex-row {
 }
 
 @media (max-width: 844px) {
-    div.featuredImage {
+    .featuredImage {
         background-origin: content-box !important;
         border-radius: .25rem .25rem 0 0;
     }
