@@ -4,6 +4,7 @@ image: 20180825_152542.jpg
 categories:
   - Family
   - Outdoors
+comments: true
 ---
 So you may or may not be aware that Helen and I have taken up snowboarding in a big way. Basically every weekend this winter we've been to the mountain.
 
