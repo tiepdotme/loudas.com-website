@@ -40,7 +40,7 @@ collections:
         type: "authors"
         layout: "author"
         output: true
-paginate: 5
+paginate: 10
 assets:
   compress:
     css:  sass
