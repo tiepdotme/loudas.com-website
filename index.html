@@ -10,7 +10,7 @@ title: The life and time of Paul Willard
 	{% endif %}
 	{% assign author = site.authors | where: 'short_name', page.author | first %}
 
-            <article id="post-12345678" class="postSnippet rounded border mb-3">
+            <article id="post-12345678" class="postSnippet rounded border mb-3" itemscope itemtype="http://schema.org/Article">
               <div class="row">
                 <div class="col-md-3 featuredImage" style="background: url('{{ site.url }}{{ site.thumbnails }}{{post.image}}') no-repeat center top / cover;">
                   <!-- featured image -->
@@ -19,12 +19,12 @@ title: The life and time of Paul Willard
                   <div class="row">
                     <div class="col-md-12">
                       <!-- post meta -->
-                      <h2 class="entry-title"><a href="{{site.url}}{{post.url}}">{{post.title}}</a></h2>
-                      <p class="post-meta">by <span class="author vcard">{% if author %}<a href="{{ site.url }}{{ author.url }}" title="Posts by {{ author.name }}" rel="author">{{ author.name }}</a>{% endif %}</span>  |  <time datetime="{{ post.date | date_to_string }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>  |  {% for category in categories %}<a href="{{ site.url }}/categories/#{{category|slugize}}" rel="category tag">{{category}}</a> {% endfor %}</p>
+                      <h2 class="entry-title"><a itemprop="headline" href="{{site.url}}{{post.url}}">{{post.title}}</a></h2>
+                      <p class="post-meta">by <span class="author vcard" itemprop="author">{% if author %}<a href="{{ site.url }}{{ author.url }}" title="Posts by {{ author.name }}" rel="author">{{ author.name }}</a>{% endif %}</span>  |  <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date_to_string }}</time>  |  {% for category in categories %}<a href="{{ site.url }}/categories/#{{category|slugize}}" rel="category tag">{{category}}</a> {% endfor %}</p>
                     </div>
                     <div class="col-md-12">
                       <!-- post excerpt -->
-                      <div class="post-excerpt p-2">{{ post.excerpt }} ... <a href="{{site.url}}{{post.url}}">read more &raquo;</a></div>
+                      <div class="post-excerpt p-2" itemprop="articleBody">{{ post.excerpt }} ... <a href="{{site.url}}{{post.url}}">read more &raquo;</a></div>
                     </div>
                   </div>
                 </div>
