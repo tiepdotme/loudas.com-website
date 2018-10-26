@@ -10,9 +10,9 @@ comments:
   timezone          : Pacific/Auckland
   requiredFields    : ['name', 'email', 'message']
   transforms:
-    email           : md5
+          email     : md5
   name              : "Loudas.com Blog"
-  notifications.enabled : true
+  notifications.enabled : false
   notifications.apiKey : "4836d8f5-20b9df27"
   notifications.domain : "mg.netent.co.nz"
   generatedFields:
