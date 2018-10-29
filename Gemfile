@@ -8,7 +8,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-paginate'
   gem 'jekyll-assets'
-  gem 'jekyll-archives'
+  gem 'jekyll-archives', git: 'https://github.com/jekyll/jekyll-archives'
   gem 'uglifier'
 end
 
