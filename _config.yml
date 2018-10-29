@@ -4,11 +4,13 @@ plugins:
     - jekyll-paginate
     - jekyll-feed
     - jekyll-archives
+    - jekyll-seo-tag
 site_name: "The life and times of Paul Willard"
 description: "Just another internet addict"
 thumbnails: "/assets/images/posts/thumbnails/"
 post-images: "/assets/images/posts/"
 timezone: Pacific/Auckland
+incremental: true
 sass:
     load_paths:
         - _sass
@@ -16,7 +18,7 @@ sass:
         - assets/css
         - assets/vendor
     style: compressed
-exclude: [node_modules, Gemfile, package.json, package-lock.json, .gitignore, README.md, ctl.sh, static_prototype, mogrify_images_to_400px_wide.sh, staticman.yml]
+exclude: [node_modules, Gemfile, package.json, package-lock.json, .gitignore, README.md, ctl.sh, static_prototype, mogrify_images_to_400px_wide.sh, staticman.yml, .jekyll-metadata]
 defaults:
   - scope:
       path: ""
@@ -57,3 +59,11 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+jekyll-seo-tag:
+    defaults:
+        - scope:
+            path: ""
+            values:
+                image: "/assets/images/ta-bearded.png"
+    image:
+        path: "/assets/images/posts"
