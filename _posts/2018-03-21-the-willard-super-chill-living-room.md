@@ -4,7 +4,7 @@ author: paul
 image: 20180317_160000-e1521616238612.jpg
 categories:
   - Family
-  - General Life
+  - General-Life
 comments: true
 ---
 So Helen and I have been trying to create a super chill living environment :)

@@ -4,7 +4,7 @@ title: Public transport vs Auckland
 author: paul
 image: 20130606-095909.jpg
 categories:
-  - General Life
+  - General-Life
 ---
 So here I am &#8230; Sitting on a train bound to Manukau. Britomart train station in Auckland city has only two rail platforms, which are feed by only one line.
 

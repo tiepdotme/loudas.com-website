@@ -4,7 +4,7 @@ title: Beard growth?
 author: paul
 image: sunnies-right-13-12-2014.jpg
 categories:
-  - General Life
+  - General-Life
 ---
 So I guess this summer it's all about hair growth for me :)
 

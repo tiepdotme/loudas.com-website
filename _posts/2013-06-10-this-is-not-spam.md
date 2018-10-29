@@ -4,7 +4,7 @@ title: This is not spam!
 author: paul
 image: 20130610-185345.jpg
 categories:
-  - General Life
+  - General-Life
 ---
 So it's 6:41pm and I'm on a train destined for Papakura before jumping the car to head home. 
 

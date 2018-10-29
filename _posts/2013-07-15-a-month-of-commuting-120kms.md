@@ -5,7 +5,7 @@ date: 2013-07-15T08:33:23+00:00
 author: paul
 image: 20130715-083125.jpg
 categories:
-  - General Life
+  - General-Life
 ---
 
 So after a month of commuting daily between Hamilton and Auckland I thought I'd share the good, the bad, and the ugly.  

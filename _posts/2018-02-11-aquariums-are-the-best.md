@@ -5,7 +5,7 @@ author: paul
 image: 20180210_205746.jpg
 categories:
   - Family
-  - General Life
+  - General-Life
 ---
 So I've had fish tanks for most of my life, except for the last 4 years. A week or so ago a nagging thought entered my head, "I need an aquarium".
 

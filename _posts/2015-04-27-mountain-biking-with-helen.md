@@ -4,7 +4,7 @@ title: Mountain biking with Helen
 author: paul
 image: Rotorua-with-Helen.png
 categories:
-  - General Life
+  - General-Life
 ---
 On April 26, 2015 Helen and I went to Rotorua for some mountain biking, followed by a soak in the stream at kerosene creek.<br /> This is the video.
 
