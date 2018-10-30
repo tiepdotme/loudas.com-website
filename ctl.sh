@@ -53,8 +53,8 @@ BuildBundledJS() {
 JekyllBuild() {
     BuildBundledJS
     export JEKYLL_ENV=production
-    $BUNDLE exec $JEKYLL build --incremental
-    # $BUNDLE exec $JEKYLL build
+    # $BUNDLE exec $JEKYLL build --incremental
+    $BUNDLE exec $JEKYLL build
 }
 
 StartServer() {
