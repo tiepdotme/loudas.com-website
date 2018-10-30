@@ -23,7 +23,10 @@
       <!-- Start new comment form -->
       <h3 class="headline">Leave a Comment</h3>
       <form id="comment-form" class="w-100 shadow-lg bg-white p-2 post__comments-form" method="post" action="https://comments.netent.co.nz/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
-      <blockquote class="blockquote"><p>Your email address will not be published. Required fields are marked <span class="required">*</span></p></blockquote>
+      <blockquote class="blockquote">
+          <p>Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+          <p>You won't be notified of replies, so come back and visit again!
+      </blockquote>
         <fieldset class="p-2">
           <label for="comment-form-message"><small>(<a target="_blank" href="https://daringfireball.net/projects/markdown/">Markdown</a> is supported)</small></label>
           <textarea class="w-100 rounded p-2" required rows="3" id="comment-form-message" name="fields[message]" tabindex="1" placeholder="* My comment is ..."></textarea>
@@ -37,7 +40,7 @@
         <fieldset class="p-2">
           <input class="w-100 rounded p-2" type="url" id="comment-form-url" name="fields[url]" tabindex="4" placeholder="My website is ... (optional)"/>
         </fieldset>
-        <fieldset class="p-2">
+        <fieldset class="hidden">
             <p class="onoff">
             <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email" checked />
             <label for="comment-form-reply"><!----></label>
