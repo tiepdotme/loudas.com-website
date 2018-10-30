@@ -29,3 +29,10 @@ anyways .. lists are boring .. here's another view:
 
 and just because .. my favourite selfie taken this Winter:  
 {% include thumbnail.html img="20180901_115757.jpg" %}
+
+I almost forgot !!
+There are videos :) Here’s me coming down the hill under the Delta chair at Whakapapa NZ  
+{% include vimeo.html id=”296353019” %}  
+
+And here is Helen doing the same  
+{% include vimeo.html id=”298009668” %}

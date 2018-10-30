@@ -10,7 +10,7 @@ description: "Just another internet addict"
 thumbnails: "/assets/images/posts/thumbnails/"
 post-images: "/assets/images/posts/"
 timezone: Pacific/Auckland
-incremental: true
+incremental: false
 sass:
     load_paths:
         - _sass
