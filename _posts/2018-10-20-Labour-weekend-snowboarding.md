@@ -16,7 +16,7 @@ Look at this:
 {% include thumbnail.html img="20181014_133011.jpg" %}  
 
 Plus I've got to buy some cool gear :) I **love** toys :P
-* Snowboard (Burton Process FLying V)
+* Snowboard (Burton Process Flying V)
 * Bindings (Burton Cartel EST)
 * Pants (RPM-MFG)
 * Jacket (RPM-MFG and GSOU Snow)
