@@ -1,8 +1,8 @@
 #!/bin/bash
 VENDOR_DIR=assets/vendor
 NPM=/usr/bin/npm
-JEKYLL=/home/paul/gems/bin/jekyll
-BUNDLE=/home/paul/gems/bin/bundle
+JEKYLL=~/gems/bin/jekyll
+BUNDLE=~/gems/bin/bundle
 JSBUNDLE_DIR=assets/js
 REMOTE_HOST=webhost1.hosting.netent.co.nz
 REMOTE_PATH=/var/www/html/loudas.com
