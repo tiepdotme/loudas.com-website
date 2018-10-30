@@ -2,7 +2,7 @@
 comments: true
 title: "Tracey's second ride"
 author: paul
-images: 051.jpg
+image: 051.jpg
 categories:
   - Bikes
 ---
