@@ -509,6 +509,11 @@ background-color: #f9f9f9;
   vertical-align: -0.4em;
   font-family: sans-serif;
 }
+
+#comment-form blockquote:before {
+    position: relative;
+    top: 20px;
+}
 .comment h3.comment_author:after {
   color: #ccc;
   content: "\201D";
