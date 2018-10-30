@@ -45,12 +45,12 @@ pagination:
         {% if paginator.page_trail %}
             {% for trail in paginator.page_trail %}
             <li class="page-item">
-                <a class="page-link {% if trail.num == paginator.page %} current{% endif %}" href="{{ site.url }}{{ trail.path }}">{{ trail.num }}</a>
+                <a class="page-link {% if trail.num == paginator.page %} bg-primary text-white{% endif %}" href="{{ site.url }}{{ trail.path }}">{{ trail.num }}</a>
             </li>
             {% endfor %}
         {% endif %}
             <li class="page-item">
-                <a class="page-link">page <strong>{{ paginator.page }}</strong> of {{ paginator.total_pages }}</a>
+                <a class="page-link">of {{ paginator.total_pages }}</a>
             </li>
         {% if paginator.next_page %}
             <li class="page-item">
