@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Get in touch with Paul
-comments: true
+image: ta-bearded.png
 slug: Contact-form.html
 ---
 
