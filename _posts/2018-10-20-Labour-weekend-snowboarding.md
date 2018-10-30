@@ -21,7 +21,7 @@ Plus I've got to buy some cool gear :) I **love** toys :P
 * Pants (RPM-MFG)
 * Jacket (RPM-MFG and GSOU Snow)
 * Mitts (Level one GTX Halfpipe)
-* Googles (Oakleys, but I'm replacing them with SunGod Revolts)
+* Goggles (Oakleys, but I'm replacing them with SunGod Revolts)
     * I love SunGod's by the way [see here](/assets/manual_uploads/DearSunGod.pdf){: target="_blank"}
 
 anyways .. lists are boring .. here's another view:  
