@@ -8,10 +8,6 @@ var urlsToCache = [];
 {% endfor %}
 
 {% for page in site.pages %}
-  {% if page.permalink %}
-    urlsToCache.push("{{ page.url }}");
-  {% endif %}
-
   {% if page.url %}
     urlsToCache.push("{{ page.url }}");
   {% endif %}
