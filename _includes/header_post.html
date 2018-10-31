@@ -46,7 +46,7 @@
 
 			  {% assign author = site.authors | where: 'short_name', page.author | first %}
 			  {% if author %}
-			  <footer class="blockquote-footer p-0 m-0">by <a itemprop="author" href="{{ site.url }}{{ author.url }}" class="bg-white dark-blue-link">{{ author.name }}</a></footer>
+              <footer class="blockquote-footer p-0 m-0">by <a itemprop="author" href="{{ site.url }}{{ author.url }}" class="text-dark"><strong>{{ author.name }}</strong></a></footer>
 			  {% endif %}
 				</blockquote>
 			</div>

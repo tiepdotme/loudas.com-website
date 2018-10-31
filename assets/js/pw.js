@@ -43,6 +43,17 @@ $(document).ready(function(){
     $('#ModalSearch').on('shown.bs.modal', function() {
         $('#query').focus();
     });
+
+    // register a service worker for offline content
+    if ("serviceWorker" in navigator) {
+         navigator.serviceWorker.register('/assets/js/service_worker.js').then(function() {
+             // console.log('CLIENT: service worker registration complete.');
+            }, function () {
+             console.log('CLIENT: service worker registration failure.');
+            });
+    } else {
+        console.log('CLIENT: service worker is not supported.');
+    }
 });
 
 $(".navbar-brand").mouseover(function(){
@@ -104,3 +115,4 @@ $('img[rel="lightbox"]').on('click', function() {
         $('.post__comments-form .js-notice-text').html(message);
     }
 })(jQuery);
+
