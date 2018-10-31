@@ -43,11 +43,13 @@ UpdateNPM() {
     cp node_modules/popper.js/dist/umd/popper.min.js.map $JSBUNDLE_DIR
     cp node_modules/bootstrap/dist/js/bootstrap.min.js $VENDOR_DIR
     cp node_modules/bootstrap/dist/js/bootstrap.min.js.map $JSBUNDLE_DIR 
+    cp node_modules/default-passive-events/dist/index.js $VENDOR_DIR/default-passive-events.js
+    cp node_modules/default-passive-events/dist/index.js.map $JSBUNDLE_DIR/default-passive-events.js.map
     $BUNDLE
 }
 
 BuildBundledJS() {
-    cat $VENDOR_DIR/jquery.min.js <(echo) $VENDOR_DIR/popper.min.js <(echo) $VENDOR_DIR/bootstrap.min.js <(echo) assets/js/ta_nav.min.js <(echo) assets/js/pw.min.js <(echo) > $JSBUNDLE_DIR/bundle.js
+    cat $VENDOR_DIR/jquery.min.js <(echo) $VENDOR_DIR/popper.min.js <(echo) $VENDOR_DIR/bootstrap.min.js <(echo) assets/js/ta_nav.min.js <(echo) $VENDOR_DIR/default-passive-events.js <(echo) assets/js/pw.min.js  > $JSBUNDLE_DIR/bundle.js
 }
 
 JekyllBuild() {
