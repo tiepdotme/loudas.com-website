@@ -1,5 +1,6 @@
 @font-face {
-font-family: 'TerminalAddict';
+    font-family: 'TerminalAddict';
+    font-display: block;
     src:url('https://fonts.netent.co.nz/TerminalAddict.ttf') format("truetype");
 }
 
@@ -337,6 +338,8 @@ font-family: 'TerminalAddict';
     min-height: 200px;
 }
 
+a.featuredImage { font-size: 0; }
+
 .jumbotron{
     color: #fff;
     height: 600px;
@@ -629,3 +632,6 @@ span.notifyText {
 iframe {
     border-width: 0px;
 }
+
+a, .pagination a.page-link, .dark-blue-link { color: #004A94; }
+.pagination a.active, .dark-blue-bg { background-color: #004A94; }

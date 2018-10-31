@@ -3,9 +3,10 @@
           {% if page.url != "/404.html" %}
           <span class="searchIconT" data-original-title="Search {{ site.url }}" data-toggle="tooltip"><a class="searchIcon m-2" href="#" data-toggle="modal" data-target="#ModalSearch" id="modalSearchButton"><img src="{{ site.url }}/assets/images/search.svg" alt="Search... " class="searchIcon"></a></span>
           {% endif %}
-        <button class="navbar-toggler toggler-spring m-2"><span class="navbar-toggler-icon"><!----></span></button>
+        <button class="navbar-toggler toggler-spring m-2" aria-labelledby="NavigationHeader"><span class="navbar-toggler-icon"><!----></span></button>
       </div>
       <div class="collapse navbar-collapse justify-content-sm-end">
+        <h2 id="NavigationHeader">Navigation</h2>
         <ul class="navbar-nav navbar-mobile mr-0">
           {% for item in site.data.navigation %}
            {% if item.subcategories != null %}

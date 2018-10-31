@@ -1,6 +1,6 @@
 		  </div>
           <div class="col-md-3"> <!-- sidebar -->
-            <aside>
+            <aside class="bg-white">
               <h4>Categories</h4>
               <ul class="list-group categoriesList">
                 {% for category in site.categories %}
@@ -9,7 +9,7 @@
                 {% endfor %}
               </ul> 
             </aside>
-            <aside>
+            <aside class="bg-white">
               <h4>Archives</h4>
               <ul class="list-group archivesList">
                   {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
