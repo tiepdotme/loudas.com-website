@@ -78,3 +78,5 @@ jekyll-seo-tag:
                 image: "/assets/images/ta-bearded.png"
     image:
         path: "/assets/images/posts"
+offline:
+    strategy: cache-then-network
