@@ -56,6 +56,10 @@ $('a[data-mail]').on('click', function() {
         window.location = 'mailto:' + $(this).data('mail')+'@paulwillard.nz' + '?subject=Contact from website';
 });
 
+$('a[target="_blank"').each(function() {
+	$(this).attr('rel', 'noreferrer noopener');
+})
+
 $('img[rel="lightbox"]').on('click', function() {
     var url = $(this).attr('src').replace('thumbnails/','');
     $('#lightboxModalBody').html('<img src="' + url +'" alt="" class="w-100" \/>');
