@@ -75,7 +75,7 @@ jekyll-seo-tag:
         - scope:
             path: ""
             values:
-                image: "/assets/images/ta-bearded.png"
+                image: "/assets/images/ta-bearded_optimised.png"
     image:
         path: "/assets/images/posts"
 offline:
