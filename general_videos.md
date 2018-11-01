@@ -1,7 +1,7 @@
 ---
 author: paul
 title: General Videos
-image: ta-bearded_optimised.png
+image: /assets/images/ta-bearded_optimised.png
 layout: page
 ---
 

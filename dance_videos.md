@@ -1,7 +1,7 @@
 ---
 author: paul
 title: Dance Videos
-image: ta-bearded_optimised.png
+image: /assets/images/ta-bearded_optimised.png
 layout: page
 ---
 
