@@ -63,6 +63,11 @@ $(".searchIconT").mouseover(function(){
         $(this).tooltip('show');
 });
 
+$('meta[property="og:image"').each(function() {
+    var _content = $(this).attr('content');
+    _content.replace("https://www.loudas.com/", "https://www.loudas.com/assets/images/posts/");
+});
+
 $('a[data-mail]').on('click', function() {
         window.location = 'mailto:' + $(this).data('mail')+'@paulwillard.nz' + '?subject=Contact from website';
 });
