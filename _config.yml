@@ -76,6 +76,7 @@ jekyll-seo-tag:
             path: ""
             values:
                 image: "/assets/images/ta-bearded_optimised.png"
+                logo: "/assets/images/paul.jpg"
     image:
         path: "/assets/images/posts"
 offline:

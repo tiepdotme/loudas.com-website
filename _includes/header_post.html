@@ -29,24 +29,36 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12" id="pwnzContainer" itemscope itemtype="http://schema.org/Article">
+            <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject" class="hidden"><link class="hidden" itemprop="url" href="{{ site.url }}{{ site.thumbnails }}{{post.image}}" /></span>
 			<div class="row w-100">
-				<h1 itemprop="headline">{{page.title}}</h1>
+                <a class="text-dark" itemprop="url mainEntityOfPage" href="{{site.url}}{{page.url}}"><h1 itemprop="headline">{{page.title}}</h1></a>
 			</div>
 			<div class="row w-100 headline d-print-none">
 				<blockquote class="post-meta m-0 w-100 border-right border-top">
-                    Posted on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_string }}</time> | Categories:
+                    Posted on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished dateModified">{{ page.date | date_to_string }}</time> | Categories:
 					{% if post %}
 						{% assign categories = post.categories %}
 					{% else %}
 						{% assign categories = page.categories %}
 					{% endif %}
 					{% for category in categories %}
-						<a href="{{ site.url }}/categories/#{{category|slugize}}">{{category}}</a>
+                        <a href="{{ site.url }}/categories/#{{category|slugize}}">{{category}}</a>{% if forloop.last != true %},{% endif %}
 					{% endfor %}
 
 			  {% assign author = site.authors | where: 'short_name', page.author | first %}
 			  {% if author %}
-              <footer class="blockquote-footer p-0 m-0">by <a itemprop="author" href="{{ site.url }}{{ author.url }}" class="text-dark"><strong>{{ author.name }}</strong></a></footer>
+              <footer class="blockquote-footer p-0 m-0">by 
+                  <span class="author vcard" itemprop="author">
+                      <a href="{{ site.url }}{{ author.url }}" class="text-dark" rel="author">
+                          <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                             <span itemprop="name" class="font-weight-bold">{{ author.name }}</span>
+                             <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject" class="hidden">
+                               <link itemprop="url" href="{{ site.url }}{{author.pic}}" />
+                             </span>
+                           </span>
+                      </a>
+                  </span>
+              </footer>
 			  {% endif %}
 				</blockquote>
 			</div>
