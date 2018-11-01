@@ -25,10 +25,10 @@
   <body class="single_post">
 	{% include navigation.html %}
     <div class="container-fluid" id="fluidcontainer">
-      <div class="container">
+      <div class="container" id="pwnzContainer">
         <div class="row">
-          <div class="col-md-12" id="pwnzContainer" itemscope itemtype="http://schema.org/Article">
-            <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject" class="hidden"><link class="hidden" itemprop="url" href="{{ site.url }}{{ site.thumbnails }}{{post.image}}" /></span>
+            <div class="col-md-12" id="{{ site.url }}{{ page.url }}" itemscope itemtype="http://schema.org/Article">
+                <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject" class="hidden"><link class="hidden" itemprop="url" href="{{ site.url }}{{ site.post-images }}{{page.image}}" /></span>
 			<div class="row w-100">
                 <a class="text-dark" itemprop="url mainEntityOfPage" href="{{site.url}}{{page.url}}"><h1 itemprop="headline">{{page.title}}</h1></a>
 			</div>

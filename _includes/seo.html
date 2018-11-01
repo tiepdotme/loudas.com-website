@@ -34,19 +34,19 @@
   {%- assign og_type = "website" -%}
 {%- endif -%}
 
-<title id="pageTitle">{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
+<title id="pageTitle">{{ page.title }}</title>
 <meta name="description" content="{{ seo_description }}" />
 
 {% if author.name %}
-  <meta name="author" content="{{ author.name | default: author }}" />
+  <meta name="author" content="{{ author.name | default: author.name }}" />
 {% endif %}
 
 <meta property="og:type" content="{{ og_type }}" />
 <meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}" />
-<meta property="og:site_name" content="{{ site.title }}" />
-<meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}" />
+<meta property="og:site_name" content="{{ site.site_name }}" />
+<meta property="og:title" content="{{ page.title | default: site.site_name | markdownify | strip_html | strip_newlines | escape_once }}" />
 <meta property="og:url" content="{{ canonical_url }}" />
-<meta property="og:image" content="{{ site.url }}{{ post-images }}{{ page.image }}" />
+<meta property="og:image" content="{{ site.url }}{{ site.post-images }}{{ page.image }}" />
 
 {% if page.excerpt %}
   <meta property="og:description" content="{{ seo_description }}" />
@@ -99,30 +99,30 @@
 		  "name": "{{ author.name }}",
           "url": "{{ site.url }}{{ author.url }}"
 		},
-      "@type": "BlogPosting",
-      "url": "{{ seo_url }}",
+      "@type": "{{ og_type }}",
+      "url": "{{ canonical_url }}",
       "image": "{{ site.url }}{{ site.post-images }}{{ page.image }}",
 	  "publisher":
 		{
-		   "@type", "Organization",
+		   "@type": "Organization",
 		   "logo":
 				{
 				 "@type": "ImageObject",
 				 "url": "{{ site.url }}/assets/images/ta-bearded.png"
-				}
+				},
 		   "name": "{{ site.site_name }}"
 		},
 	  "headline": "{{ page.title }}",
-      {% if og_type="article" %}
+      {% if page.date %}
 	  "dateModified": "{{ page.date | date_to_xmlschema }}",
 	  "datePublished": "{{ page.date | date_to_xmlschema }}",
       {% endif %}
 	  "mainEntityOfPage":
 		{
-			"@type" "WebPage",
-			"@id": "{{ seo_url }}"
-		}
-	   "@context", "http://schema.org"
+			"@type": "WebPage",
+			"@id": "{{ canonical_url }}"
+		},
+	   "@context": "http://schema.org"
     }
   </script>
 
