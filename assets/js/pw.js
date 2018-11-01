@@ -54,6 +54,8 @@ $(document).ready(function(){
     } else {
         console.log('CLIENT: service worker is not supported.');
     }
+
+    $('meta[property="og:image"]').attr('content').replace("https://www.loudas.com/","https://www.loudas.com/assets/images/posts/");
 });
 
 $(".navbar-brand").mouseover(function(){
@@ -61,11 +63,6 @@ $(".navbar-brand").mouseover(function(){
 });
 $(".searchIconT").mouseover(function(){
         $(this).tooltip('show');
-});
-
-$('meta[property="og:image"').each(function() {
-    var _content = $(this).attr('content');
-    _content.replace("https://www.loudas.com/", "https://www.loudas.com/assets/images/posts/");
 });
 
 $('a[data-mail]').on('click', function() {
