@@ -6,15 +6,15 @@
 
     {%  include google_analytics.html %}
 
-    <title id="pageTitle">{{ page.title }}.</title>
 	{% capture styles %}
     {% include main.css %}
     {% endcapture %}
 	<style>
 	{{ styles | scssify }}
 	</style>
+    {% include seo.html %}
+
 	{% feed_meta %}
-	{% seo title=false %}
 	{% include favicon.html %}
 
     <meta property="fb:app_id" content="222058004471035" />

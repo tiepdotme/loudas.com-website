@@ -54,8 +54,6 @@ $(document).ready(function(){
     } else {
         console.log('CLIENT: service worker is not supported.');
     }
-
-    $('meta[property="og:image"]').attr('content').replace("https://www.loudas.com/","https://www.loudas.com/assets/images/posts/");
 });
 
 $(".navbar-brand").mouseover(function(){
