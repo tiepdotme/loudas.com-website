@@ -47,10 +47,8 @@
 <meta property="og:title" content="{{ page.title | default: site.site_name | markdownify | strip_html | strip_newlines | escape_once }}" />
 <meta property="og:url" content="{{ canonical_url }}" />
 <meta property="og:image" content="{{ site.url }}{{ site.post-images }}{{ page.image }}" />
+<meta property="og:description" content="{{ seo_description }}" />
 
-{% if page.excerpt %}
-  <meta property="og:description" content="{{ seo_description }}" />
-{% endif %}
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}" />
   <meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}" />
