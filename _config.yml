@@ -79,5 +79,6 @@ jekyll-seo-tag:
                 logo: "/assets/images/paul.jpg"
     image:
         path: "/assets/images/posts"
+logo: "/assets/images/paul.jpg"
 offline:
     strategy: cache-then-network
