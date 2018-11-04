@@ -28,7 +28,7 @@
       <div class="container" id="pwnzContainer">
         <div class="row">
             <div class="col-md-12" id="{{ site.url }}{{ page.url }}" itemscope itemtype="http://schema.org/Article">
-                <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject" class="hidden"><link class="hidden" itemprop="url" href="{{ site.url }}{{ site.post-images }}{{page.image}}" /></span>
+                <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject" class="hidden"><link class="hidden" itemprop="url" href="{{ site.url }}{{ site.post-images }}{{page.image}}" /></div>
 			<div class="row w-100">
                 <a class="text-dark" itemprop="url mainEntityOfPage" href="{{site.url}}{{page.url}}"><h1 itemprop="headline">{{page.title}}</h1></a>
 			</div>
@@ -47,16 +47,16 @@
 			  {% assign author = site.authors | where: 'short_name', page.author | first %}
 			  {% if author %}
               <footer class="blockquote-footer p-0 m-0">by 
-                  <span class="author vcard" itemprop="author">
+                  <div class="d-inline author vcard" itemprop="author">
                       <a href="{{ site.url }}{{ author.url }}" class="text-dark" rel="author">
-                          <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                          <div class="d-inline" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
                              <span itemprop="name" class="font-weight-bold">{{ author.name }}</span>
-                             <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject" class="hidden">
+                             <div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject" class="hidden">
                                <link itemprop="url" href="{{ site.url }}{{author.pic}}" />
-                             </span>
-                           </span>
+                             </div>
+                           </div>
                       </a>
-                  </span>
+                  </div>
               </footer>
 			  {% endif %}
 				</blockquote>
