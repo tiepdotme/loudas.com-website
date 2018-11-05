@@ -13,7 +13,7 @@ var urlsToCache = [];
   {% endif %}
 {% endfor %}
 
-var CACHE_NAME = '{{ site.site_name | slugify }}-cache-v1';
+var CACHE_NAME = '{{ site.site_name | slugify }}-cache-{{ "now" | date: "%d-%m-%Y_%H:%M" }}';
 
 self.addEventListener('install', function(event) {
   // Perform install steps
