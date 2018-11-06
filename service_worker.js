@@ -17,6 +17,7 @@ var CACHE_NAME = '{{ site.site_name | slugify }}-cache-{{ "now" | date: "%d-%m-%
 
 self.addEventListener('install', function(event) {
   // Perform install steps
+  self.skipWaiting();
   event.waitUntil(caches.open(CACHE_NAME).then(function(cache) {
     return cache.addAll(urlsToCache);
   }).catch(function(err) {
