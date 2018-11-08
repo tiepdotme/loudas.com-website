@@ -652,3 +652,14 @@ a, .pagination a.page-link, .dark-blue-link { color: #004A94; }
 	background: rgba(0,255,0,0.5) !important;
 	border: 5px dashed #538756 !important;
 }
+
+@media screen and (max-width: 576px){
+    #rc-imageselect, .g-recaptcha {
+        transform:scale(0.77);
+        -webkit-transform:scale(0.77);
+        transform-origin:0 0;
+        -webkit-transform-origin:0 0;
+    }
+}
+
+.archivesAccordian .card-body { padding: 0; }
