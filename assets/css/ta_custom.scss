@@ -4,6 +4,14 @@
     src:url('https://www.loudas.com/assets/fonts/TerminalAddict.ttf') format("truetype");
 }
 
+body {
+    background-image: url('/assets/images/bg_greygrid.png');
+    background-position: left top;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
 .navbar-brand span {
     font-family: 'TerminalAddict'; 
     font-size: 65px; 
