@@ -68,7 +68,7 @@ $('a[data-mail]').on('click', function() {
         window.location = 'mailto:' + $(this).data('mail')+'@paulwillard.nz' + '?subject=Contact from website';
 });
 
-$('a[target="_blank"').each(function() {
+$('a[target="_blank"]').each(function() {
 	$(this).attr('rel', 'noreferrer noopener');
 })
 
