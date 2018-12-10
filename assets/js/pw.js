@@ -78,6 +78,17 @@ $('img[rel="lightbox"]').on('click', function() {
     $('#lightboxModal').modal('show');
 });
 
+var verifyCaptcha = function(response) {
+    if(response.length == 0) {
+    } else {
+        var _el=$('#comment-form-submit');
+        _el.removeAttr("disabled");
+        _el.addClass('button-primary dark-blue-bg');
+        _el.attr('aria-disabled', 'false');
+        _el.attr('type', 'submit');
+    }
+};
+
 // Static comments
 (function ($) {
     var $comments = $('.js-comments');
