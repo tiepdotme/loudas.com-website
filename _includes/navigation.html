@@ -15,7 +15,7 @@
               <a class="nav-link  p-1 rounded" href="#">{{ item.name }} &raquo;</a>
               <ul class="navbar-nav submenu">
               {% for subcategory in item.subcategories %}
-              <li class="nav-item nav-item-fill"><a class="nav-link p-1 rounded {% if page.url == subcategory.subhref %} active{% endif %}" href="{{ subcategory.subhref }}" title="{{ item.name }}">{{ subcategory.subtitle }}</a></li>
+              <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a class="nav-link p-1 rounded {% if page.url == subcategory.subhref %} active{% endif %}" href="{{ subcategory.subhref }}" title="{{ item.name }}">{{ subcategory.subtitle }}</a></li>
               {% endfor %}
               </ul>
           </li>

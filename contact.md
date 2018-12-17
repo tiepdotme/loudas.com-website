@@ -5,7 +5,7 @@ image: ta-bearded.png
 slug: Contact-form.html
 ---
 
-<div class="row">
+<div class="row rounded border bg-white">
 <div class="col-md-3" markdown="1">
 ![Paul Willard]({{ site.url }}{{ site.thumbnails }}bearded.jpg "Paul Willard"){: rel="lightbox" class="w-100 shadow-lg rounded"}
 </div>
