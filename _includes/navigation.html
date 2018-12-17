@@ -23,6 +23,15 @@
            <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}">{{ item.name }}</a></li>
            {% endif %}
           {% endfor %}
+          <li class="nav-item dropdown">
+              <a class="nav-link  p-1 rounded" href="#">Categories &raquo;</a>
+              <ul class="navbar-nav submenu">
+                  {% for category in site.categories %}
+                  {% capture category_name %}{{ category | first }}{% endcapture %}
+                  <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a href="{{ site.url }}/categories/#{{ category_name | slugize }}" class="nav-link p-1 rounded">{{ category_name | slugsize }}</a></li>
+                  {% endfor %}
+              </ul>
+          </li>
         </ul>
       </div>
     </nav>
