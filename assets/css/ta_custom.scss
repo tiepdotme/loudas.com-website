@@ -671,3 +671,7 @@ a, .pagination a.page-link, .dark-blue-link { color: #004A94; }
 }
 
 .archivesAccordian .card-body { padding: 0; }
+
+.submenu li.nav-item a:before {
+	content: "\00BB  ";
+}
