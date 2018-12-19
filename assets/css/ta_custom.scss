@@ -24,9 +24,16 @@ body {
     display: inline-block; 
     z-index: 20;
 }
+
 @media (max-width:768px) {
     .navbar-brand span {
         font-size: 9vw;
+    }
+}
+
+@media (max-width:500px) {
+    .navbar-brand span {
+        display: none;
     }
 }
 
@@ -147,6 +154,8 @@ body {
     padding-bottom: 0;
     z-index: 50;
     margin-bottom: 50px;
+    transform-origin: right top;
+    transform: skewY(-.75deg);
 }
 
 .navbar-nav .nav-item {
