@@ -7,6 +7,9 @@ categories:
   - Outdoors
 image: Meribel-2019.jpg
 ---
+So like I mentioned in [The new 2018 Winter Hobby]({% post_url 2018-06-19-snowboarding-new-winter-2018-hobby %}), Helen and I we're invited to join the Sims family (my sister Karen, and her family) for Christmas 2018.  
+Ian, Karen, Jamie, Josh, and Emily (the Sims Family) go to M&eacute;ribel every Christmas; so frequently that a few years back they bought their own chalet. Cool! and even cooler that we got an invite to join them. It has been, I dunno, maybe 25 years since Karen and I spent a Christmas together, so what an amazing invitation from Karen!
+
 <aside class="toc" markdown="0">
   <h4>Table of Contents</h4>
   <ul class="list-group categoriesList">
@@ -20,14 +23,11 @@ image: Meribel-2019.jpg
   </ul> 
 </aside>
 
-So like I mentioned in [The new 2018 Winter Hobby]({% post_url 2018-06-19-snowboarding-new-winter-2018-hobby %}), Helen and I we're invited to join the Sims family (my sister Karen, and her family) for Christmas 2018.  
-Ian, Karen, Jamie, Josh, and Emily (the Sims Family) go to M&eacute;ribel every Christmas; so frequently that a few years back they bought their own chalet. Cool! and even cooler that we got an invite to join them. It has been, I dunno, maybe 25 years since Karen and I spent a Christmas together, so what an amazing invitation from Karen!
-
 ## The Flights
 
 Firstly, the flights.  
 So we flew business class with Emirates, thanks entirely to Ian and Karen, who organised our flights.  
-This is not the first time we've flown busniess class, but we've not yet used to it :)
+This is not the first time we've flown busniess class, but we've not yet grown used to it :)
 
 The access to the lounges (free food!), the beds on the plane! Wonderful!  
 There was basically no timezone adjustment when we arrived at France; having a bed on the plane lets us sort out our sleeping while we're travelling. I remember travelling economy and complaining about sleep. None of that in business, you just lie down in your bed and sleep.  
@@ -52,14 +52,14 @@ We're in a double room on the second floor, opening on to the front deck, with a
 
 The place was catered by a fabulous group of young brits from [Ski Cuisine](https://www.skicuisine.co.uk/meribel-chalets/carcajou){: target="_blank"}.
 
-Jack (the Chef), Robin, Sarah, and Tom (the Chalets hosts) we're very cool people. They all skiied and snowboarded, and described themselves as "seasonaire's".  
+Jack (the Chef), Robin, Sarah, and Tom (the Chalet hosts) we're very cool people. They all skiied and snowboarded, and described themselves as "seasonaire's".  
 They did a wonderful job making our stay as comfortable as imaginable. Great food, great people, a driver to get us to La Chaudanne (where the lifts, and bubbles start), just amazing guys ! thanks for helping make a holiday of a lifetime.
 
 ## Snowboarding at M&eacute;ribel
 
 3 months away from the snow means I'm rusty ! and so is Helen.  
-Our first day we followed a guide to Courchevel (which is another valley in Les 3 Vall&eacute;es - the 3 Valleys). There had been 2 very large dumps of snow the week before we arrived, followed by 2 days of rain. That means the snow was hard and icy. Our guide Rab reckoned the sun that hits Courchevel in the monring might soften the snow a bit, he was right.  
-Day two, and every other day following we stayed in M&eacute;ribel valley. The snow got softer, and softer through the week.  
+Our first day we followed a guide to Courchevel (which is another valley in Les 3 Vall&eacute;es - the 3 Valleys). There had been 2 very large dumps of snow the week before we arrived, followed by 2 days of rain. That means the snow was hard and icy. Our guide Rab reckoned the sun that hits Courchevel in the morning might soften the snow a bit, he was right.  
+Day two, and every other day following, we stayed in M&eacute;ribel valley. The snow got softer, and softer through the week.  
 Helen took up an offer of lessons with [Parallel Lines](https://www.parallel-lines.com/){: target="_blank"}, and I joined in with her 3rd lesson.
 
 We worked on carving, body position, and getting confidence up.
@@ -72,7 +72,9 @@ Got a video of course ! :) I'm pretty slow, and by Jan 1st my fitness (or lack o
 
 {% include youtube.html id="loaGXRZmNPY" %}
 
-  
+&nbsp;
+
+
 The last day spent on the snow with my sister was a huge highlight for me. I'm not sure Karen realises just how special that felt to me, sharing an amazing experience with my sister. Half way down I met Helen ... what could be better than spending the last day at M&eacute;ribel with these two ladies on the snow. ***Big love***
 
 ## Driving across france
@@ -84,13 +86,13 @@ So, first thing, driving on the right hand side of the road, that was fun :)
 Also, speed limits ! The speed limit is 130kph, but speed is not policed like in NZ, so sitting at 90mph (144kph) is pretty standard for everyone.  
 I even hit the ton a few times (100mph), just cruisin' eh :)
 
-The view started off quite interesting, miles of plains filled with wind turbines, then didn't change for hundreds of miles.
+The view started off quite interesting, miles of plains, filled with wind turbines, and didn't change for hundreds of miles.
 
 We arrived at Troyes at about 7pm and checked into our Hotel, [Le Champ des Oiseaux](https://www.champdesoiseaux.com/en){: target="_blank"}.  
 What an amazing hotel in the heart of Medieval Troyes.  
-The hotel recommended [Chez Felix](http://www.chez-felix.fr/){: target="_blank"} for dinner, so we head out for a walk through town, walking down randomly found alley ways of old Medieval Troyes, finally setting down in the restaurant for Duck and Prawns, with a bottle or red wine, followed by selection de fromages (a selection of cheese).
+The hotel recommended [Chez Felix](http://www.chez-felix.fr/){: target="_blank"} for dinner, so we head out for a walk through town, walking down randomly found alley ways of old Medieval Troyes, finally setting down in the restaurant for Duck and Prawns, with a bottle of red wine, followed by selection de fromages (a selection of cheeses).
 
-Day two ,was full of similar scenery, hundreds of miles of plains, filled with wind turbines.
+Day two was full of similar scenery, hundreds of miles of plains, filled with wind turbines.
 
 We finally reached Calais, to board the ferry.  
 Once again Karen had gone all out, and booked us in the club lounge, so yet another super comfortable, luxurious travel experience.

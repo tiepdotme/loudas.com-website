@@ -732,4 +732,7 @@ aside.toc {
     @include media-breakpoint-only(sm) {
         float: none;
     }
+    @include media-breakpoint-only(xs) {
+        float: none;
+    }
 }
