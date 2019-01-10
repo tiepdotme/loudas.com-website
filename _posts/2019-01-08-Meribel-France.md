@@ -7,7 +7,7 @@ categories:
   - Outdoors
 image: Meribel-2019.jpg
 ---
-So like I mentioned in [The new 2018 Winter Hobby]({% post_url 2018-06-19-snowboarding-new-winter-2018-hobby %}), Helen and I we're invited to join the Sims family (my sister Karen, and her family) for Christmas 2018.  
+So like I mentioned in [The new 2018 Winter Hobby]({% post_url 2018-06-19-snowboarding-new-winter-2018-hobby %}), Helen and I were invited to join the Sims family (my sister Karen, and her family) for Christmas 2018.  
 Ian, Karen, Jamie, Josh, and Emily (the Sims Family) go to M&eacute;ribel every Christmas; so frequently that a few years back they bought their own chalet. Cool! and even cooler that we got an invite to join them. It has been, I dunno, maybe 25 years since Karen and I spent a Christmas together, so what an amazing invitation from Karen!
 
 <aside class="toc" markdown="0">
