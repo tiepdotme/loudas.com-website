@@ -27,7 +27,7 @@ Ian, Karen, Jamie, Josh, and Emily (the Sims Family) go to M&eacute;ribel every 
 
 Firstly, the flights.  
 So we flew business class with Emirates, thanks entirely to Ian and Karen, who organised our flights.  
-This is not the first time we've flown busniess class, but we've not yet grown used to it :)
+This is not the first time we've flown business class, but we've not yet grown used to it :)
 
 The access to the lounges (free food!), the beds on the plane! Wonderful!  
 There was basically no timezone adjustment when we arrived at France; having a bed on the plane lets us sort out our sleeping while we're travelling. I remember travelling economy and complaining about sleep. None of that in business, you just lie down in your bed and sleep.  
