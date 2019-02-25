@@ -129,3 +129,6 @@ var verifyCaptcha = function(response) {
     }
 })(jQuery);
 
+var curyear = new Date().getFullYear();
+console.log("%cAll code is copyright © Paul Willard " + curyear, "font: 2em sans-serif; color: yellow; background-color: red;");
+console.log("%cAuthor: Paul Willard <paul@paulwillard.nz>", "font: 1.5em sans-serif; color: yellow; background-color: red;");
