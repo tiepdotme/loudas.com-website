@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/TerminalAddict/jekyll-paginate-terminaladdict
+  revision: 87281c50c23c54ea15281906efb23f13524844bd
+  specs:
+    jekyll-paginate-v2 (2.1.0)
+      jekyll (>= 3.0)
+
+GIT
   remote: https://github.com/jekyll/jekyll-archives
   revision: 4887eab2eef0ee36d8d72e6d830cc43fec816979
   specs:
@@ -50,7 +57,6 @@ GEM
       sprockets-sass
     jekyll-feed (0.12.1)
       jekyll (>= 3.7, < 5.0)
-    jekyll-paginate-v2 (1.5.2)
     jekyll-sass-converter (2.0.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-sitemap (1.3.1)
@@ -110,7 +116,7 @@ DEPENDENCIES
   jekyll-archives!
   jekyll-assets
   jekyll-feed
-  jekyll-paginate-v2
+  jekyll-paginate-v2!
   jekyll-sitemap
   uglifier
 
