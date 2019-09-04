@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Monsters Under The House
-image: ../2019-den-project/monstertank-july14.jpg
+image: monstertank-july14.jpg
 comments: false
 description: Current fish I have in my monster tank
 ---
