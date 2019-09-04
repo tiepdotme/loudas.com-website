@@ -78,6 +78,12 @@ $('img[rel="lightbox"]').on('click', function() {
     $('#lightboxModal').modal('show');
 });
 
+$('a[rel="lightbox"]').on('click', function() {
+    var url = $(this).data('image').replace('thumbnails/','');
+    $('#lightboxModalBody').html('<img src="' + url +'" alt="" class="w-100" \/>');
+    $('#lightboxModal').modal('show');
+});
+
 var verifyCaptcha = function(response) {
     if(response.length == 0) {
     } else {

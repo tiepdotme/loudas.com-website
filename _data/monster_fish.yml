@@ -1,0 +1,63 @@
+- name: "Indonesian Tiger / Borneo Tiger"
+  scientific_name: "Datnoid Microlepis"
+  image: Datnoid.jpg
+  habitat: "An exclusive inhabitant of large, deep, typically lowland freshwater rivers, and not thought to enter brackish environments. It has been collected from flooded forests during the annual wet season."
+  size: "400 – 500 mm."
+  link: https://www.seriouslyfish.com/species/datnioides-microlepis/
+
+- name: "Silver Arowana"
+  scientific_name: "Osteoglossum bicirrhosum"
+  image: Osteoglossum-bicirrhosum.png
+  habitat: "Tends to inhabit slow-moving to still tributaries, backwaters and lagoons during the dry season, and moves into areas of flooded forest during periods of inundation. It is chiefly a surface dweller preying on smaller fishes and terrestrial insects, and is famed for its ability to leap high out of the water to catch the latter."
+  size: "700 – 800 mm."
+  link: https://www.seriouslyfish.com/species/osteoglossum-bicirrhosum/
+
+- name: "Giant Gourami"
+  scientific_name: "Osphronemus goramy"
+  image: giant_gourami.jpg
+  habitat: "Lives in swamps, large rivers and bodies of stagnant water."
+  size: "700 mm."
+  link: https://www.seriouslyfish.com/species/osphronemus-goramy/
+
+- name: "Flagtail"
+  scientific_name: "Semaprochilodus insignis"
+  image: flagtail.jpg
+  habitat: "It migrates and spawns in the river channels but feeds mostly in the floodplains. It can also be found in floodplain lakes (known locally as “várzeas”) and forest streams."
+  size: "350 mm."
+  link: https://www.seriouslyfish.com/species/semaprochilodus-insignis/
+
+- name: "Delhezi Bichir / Armoured Bichir"
+  scientific_name: "Polypterus delhezi"
+  image: delhezi.jpg
+  habitat: "Democratic Republic of Congo. It is found in lakes, streams and flooded areas. These are often heavily vegetated."
+  size: "350 mm."
+  link: https://www.seriouslyfish.com/species/polypterus-delhezi/
+
+- name: "Red-bellied Pacu"
+  scientific_name: "Piaractus brachypomus"
+  image: pacu.jpg
+  habitat: "Inhabits main river channels and flood plains, moving into flooded forests during the rainy season. It tends to prefer shallow, slow-moving areas with overhanging or floating vegetation. Juveniles spend the first few months of life in the flood plains, where food is plentiful and predation is less of a danger."
+  size: "600 mm."
+  link: https://www.seriouslyfish.com/species/piaractus-brachypomus/
+
+- name: "Red Stripped Earth Eater"
+  scientific_name: "Geophagus suramenises / Geophagus altifrons"
+  image: geophagus.jpg
+  habitat: "Predominantly found in the lower reaches of rivers, appearing to be restricted by the first stretch of rapids encountered, and has also been collected from floodplain lakes in Várzea (literally ‘flooded forest’) regions. It is said to show a preference for clear and black water environments as opposed to turbid ‘white’ waters and tends to inhabit gently sloping marginal zones around shores or islands with substrates of sand, fine gravel and mud."
+  size: "225 mm."
+  link: https://www.seriouslyfish.com/species/geophagus-altifrons/
+
+- name: "Tyre-Track Eel"
+  scientific_name: "Mastacembelus armatus"
+  image: tyre-track-eel.jpg
+  habitat: "Asia: India, Thailand and Sumatra. Reported to occur in areas with rocky bottoms in the Mekong mainstream during the dry season, but enter canals, lakes and other floodplain areas during the flood season. Forages at night on benthic insect larvae, worms and some submerged plant material."
+  size: "910 mm."
+  link: https://www.seriouslyfish.com/species/mastacembelus-armatus/
+
+- name: "Black Ghost Knife Fish"
+  scientific_name: "Apteronotus albifrons"
+  image: black-ghost-knife.jpg
+  habitat: "Occurs in rapidly flowing waters of creeks with a sandy bottom. Nocturnal. Possesses a weakly discharging neurogenic electric organ and ampullary electro receptors that are distributed from head to tail."
+  size: "500 mm."
+  link: http://www.fishbase.org/summary/Apteronotus-albifrons.html
+

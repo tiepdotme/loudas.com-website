@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {%  include google_analytics.html %}
+
+	{% capture styles %}
+    {% include main.css %}
+    {% endcapture %}
+	<style>
+	{{ styles | scssify }}
+	</style>
+    {% include seo.html %}
+
+	{% feed_meta %}
+	{% include favicon.html %}
+
+    <meta property="fb:app_id" content="222058004471035" />
+    <meta property="fb:profile_id" content="100000348834111" />
+    <meta property="fb:admins" content="100000348834111" />
+    <meta property="og:image" content="{{ site.url }}{{ site.thumbnails }}{{post.image}}" />
+    <meta property="og:type" content="article" />
+
+  </head>
+  <body>
+    <div class="container-fluid" id="fluidcontainer">
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-md-12" id="pwnzContainerNoSearch">
