@@ -68,3 +68,17 @@
   size: "250 mm."
   link: http://www.seriouslyfish.com/species/chalceus-macrolepidotus/
 
+- name: "Featherfin Synodontis"
+  scientific_name: "Synodontis euptera"
+  image: synodontis.jpg 
+  habitat: "Nigeria, Cameroon, Mali, Ghana, Sudan, Chad, Niger. It occurs in varying biotopes."
+  size: "300 mm."
+  link: http://www.seriouslyfish.com/species/synodontis-euptera/
+
+- name: "Common Pleco"
+  scientific_name: "Hypostomus plecostomoides LDA42, LDA38"
+  image: pleco.jpg 
+  habitat: "It’s usually found living in and around pieces of driftwood in flowing parts of rivers and streams."
+  size: "300 mm."
+  link: https://www.seriouslyfish.com/species/hypostomus-plecostomoides/
+
