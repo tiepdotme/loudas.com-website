@@ -6,9 +6,13 @@
         subhref: "/general_videos.html"
       - subtitle: Dance Videos
         subhref: "/dance_videos.html"
+      - subtitle: Fish Videos
+        subhref: "/aquarium_videos.html"
 - name: Fish
   subcategories:
       - subtitle: Monster FIsh
         subhref: "/the_monsters_under_the_house.html"
+      - subtitle: Fish Videos
+        subhref: "/aquarium_videos.html"
 - name: Contact
   link: /contact.html
