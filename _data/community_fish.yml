@@ -1,0 +1,98 @@
+- name: "Boeseman's rainbow / Bosemani Rainbow"
+  scientific_name: "Melanotaenia boesemani"
+  image: rainbowfish.jpg
+  habitat: "Has a very limited natural range, being known only from an area of three lakes known as Ajamaru, in the remote Vogelkop Peninsula of Irian Jaya, and from nearby Lakes Hain and Aitinjo. The rainbows tend to congregate in the clear shallows of the lakes, where aquatic vegetation grows very densely."
+  size: "110mm."
+  link: https://www.seriouslyfish.com/species/melanotaenia-boesemani/
+
+- name: "Black Molly"
+  scientific_name: "Poecilia sphenops"
+  image: mollyfish.jpg
+  habitat: "It’s native range runs north from Venezuela and Colombia to Mexico, with isolated populations on some Caribbean islands. Wild fish are rare in the hobby these days though, with the vast majority of the ones on sale being mass-produced in the Far East and Eastern Europe. Introduced or feral populations also exist in a handful of other countries, including the United States, Japan, Singapore and even parts of Eastern Europe."
+  size: "80mm."
+  link: https://www.seriouslyfish.com/species/poecilia-sphenops/
+
+- name: "Mickey Mouse Platy"
+  scientific_name: "Xiphophorus maculatus"
+  image: mm_platy.jpg
+  habitat: "Native to North and Central America from Ciudad Veracruz, Mexico, to northern Belize in Central America. Nonnative populations now reside in a number of locations within the United States, including California, Colorado, Florida, Hawaii, Louisiana, Montana, Nevada, and Texas. Different Platy species live in different river systems; none are considered to be endangered."
+  size: "50mm."
+  link: https://www.seriouslyfish.com/species/xiphophorus-maculatus/
+
+- name: "Platy"
+  scientific_name: "Xiphophorus maculatus"
+  image: orange_platy.jpg
+  habitat: "Native to North and Central America from Ciudad Veracruz, Mexico, to northern Belize in Central America. Nonnative populations now reside in a number of locations within the United States, including California, Colorado, Florida, Hawaii, Louisiana, Montana, Nevada, and Texas. Different Platy species live in different river systems; none are considered to be endangered."
+  size: "50mm."
+  link: https://www.seriouslyfish.com/species/xiphophorus-maculatus/
+
+- name: "Black Widow"
+  scientific_name: "Gymnocorymbus ternetzi"
+  image: black_widow.jpg
+  habitat: "Small, slow-moving creeks, tributaries and streams, usually with dense overhanging vegetation."
+  size: "60mm."
+  link: https://www.seriouslyfish.com/species/gymnocorymbus-ternetzi/
+
+- name: "Clown Loach"
+  scientific_name: "Chromobotia macracanthus"
+  image: clown_loach.jpg
+  habitat: "Native to the Greater Sunda Islands of Borneo and Sumatra. In the former it’s restricted to river systems of Kalimantan Barat (West Kalimantan), Kalimantan Tengah (Central Kalimantan) and Kalimantan Timur (East Kalimantan) provinces in the Indonesian portion including the Kapuas and Kayan."
+  size: "300mm."
+  link: https://www.seriouslyfish.com/species/chromobotia-macracanthus/
+
+- name: "Angel / Angelfish"
+  scientific_name: "Pterophyllum"
+  image: angelfish.jpg
+  habitat: "The natural range of this species covers parts of Colombia, Guyana, Suriname, French Guiana, Peru and Brazil. It’s found in numerous river systems, including the Rio Oyapock, Rio Essequibo, Rio Ucayali, Rio SolimÃµes and the main Amazon drainage. It also occurs in various rivers in the Brazilian state of Amapá. Wild fish are rare in the hobby these days though, with the vast majority of the ones on sale being mass-produced in the Far East and Eastern Europe."
+  size: "150mm."
+  link:  https://www.seriouslyfish.com/species/pterophyllum-scalare/
+
+- name: "Kuhli Loach"
+  scientific_name: "Pangio semicincta"
+  image: kuhli_loach.jpg
+  habitat: "Most commonly found in shallow, slow-moving sections of forest streams or other calm habitats such as swamps, oxbows, and backwaters. Currently accepted to occur in Peninsular Malaysia plus the Great Sunda Islands of Sumatra and Borneo but the true extent of its distribution is unclear. "
+  size: "100mm."
+  link:  https://www.seriouslyfish.com/species/pangio-semicincta/
+
+- name: "Half Banded Spiny Eel"
+  scientific_name: "Macrognathus circumcinctus"
+  image: HalfBandedSpinyEel.jpg
+  habitat: "The Half-banded Spiny Eel Macrognathus circumcinctus (previously Mastacembelus circumcinctus) was described by Hora in 1924. They are found in Asia including Mekong and Chao Phraya basins, southeastern Thailand, Malay Peninsula, Sumatra, and Indonesia. This species is listed on the IUCN Red List as least concern (LC) because it is common throughout its range, and although harvested by fisheries and for the aquarium trade, there is no significant threats identified at present."
+  size: "190mm."
+  link:  http://animal-world.com/encyclo/fresh/Eels/HalfBandedSpinyEel.php
+
+- name: "Bristlenose Plecostamus"
+  scientific_name: "Ancistrus cirrhosus"
+  image: bristlenose.jpg
+  habitat: "A. cirrhosus is native to the Argentinian portion of the Paraná river drainage but all A. cf. cirrhosus in the hobby are produced commercially and of uncertain origin."
+  size: "125mm."
+  link:  https://www.seriouslyfish.com/species/ancistrus-cf-cirrhosus/
+
+- name: "King Tiger Plecostamus L066"
+  scientific_name: "Hypancistrus"
+  image: kingtiger_plec.jpg
+  habitat: "Collected from the rio Xingu downstream and in the vicinity of Belo Monte, Pará state, northern Brazil. Typically inhabits turbulent stretches of whitewater rapids with rocky substrates."
+  size: "140mm."
+  link:  https://www.seriouslyfish.com/species/hypancistrus-sp-l066/
+
+- name: "Guppy"
+  scientific_name: "Poecilia reticulata"
+  image: guppy_fish.jpg
+  habitat: "An incredibly adaptable species that occurs in almost every imaginable biotope, from high-altitude streams to turbid swamps and ditches. Native to northeastern South America and the southern Caribbean with its original range considered to cover Venezuela, Guyana, Suriname, French Guiana plus the islands of Trinidad and Tobago, Barbados, Antigua and Barbuda and the Netherlands Antilles."
+  size: "60mm."
+  link:  https://www.seriouslyfish.com/species/poecilia-reticulata/
+
+- name: "Siamese Algae Eater"
+  scientific_name: "Crossocheilus langei"
+  image: sae_fish.jpg
+  habitat: "Currently considered to occur in Borneo, Peninsular Malaysia, southern and western Thailand, and possibly southern Myanmar. Inhabits flowing streams and tributaries with substrates of boulders, pebbles, gravel and sand, often in areas with submerged driftwood or tree roots. The clear, often shallow, water allows sunlight to penetrate the surface and the development of a rich biofilm covering submerged surfaces upon which the fish browse."
+  size: "150mm."
+  link:  https://www.seriouslyfish.com/species/crossocheilus-langei/
+
+- name: "Dwarf Gourami"
+  scientific_name: "Trichogaster lalius"
+  image: dwarf_gourami.jpg
+  habitat: "Widely distributed through Pakistan, northern India and Bangladesh. Predominantly inhabits sluggish, heavily-vegetated environments including ponds, swamps, ditches, streams and irrigation canals."
+  size: "75mm."
+  link:  https://www.seriouslyfish.com/species/trichogaster-lalius/
+
