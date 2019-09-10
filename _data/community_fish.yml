@@ -96,3 +96,10 @@
   size: "75mm."
   link:  https://www.seriouslyfish.com/species/trichogaster-lalius/
 
+- name: "Zebra Danio"
+  scientific_name: "Brachydanio rerio"
+  image: zebra_danio.jpg
+  habitat: "Described from the Kosi River, a tributary of the Ganges system in Uttar Pradesh state, northern India. "
+  size: "50mm."
+  link:  http://www.seriouslyfish.com/species/danio-rerio/
+
