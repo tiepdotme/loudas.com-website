@@ -24,6 +24,10 @@
 
 {% assign author = site.authors | where: 'short_name', page.author | first %}
 
+{% unless author.name  %}
+    {% assign author = site.authors | where: 'short_name',  'paul' %}
+{% endunless %}
+
 {%- if author.twitter -%}
   {%- assign author_twitter = author.twitter | replace: "@", "" -%}
 {%- endif -%}
