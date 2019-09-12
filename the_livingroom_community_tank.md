@@ -3,6 +3,7 @@ layout: page
 title: The Living room community tank
 image: livingroom_community_tank.png
 comments: false
+author: paul
 description: Current fish I have in my living room community tank
 ---
 <div class="row w-100 rounded border bg-white d-print-none">

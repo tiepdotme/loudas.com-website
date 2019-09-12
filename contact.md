@@ -2,6 +2,7 @@
 layout: page
 title: Get in touch with Paul
 image: ta-bearded.png
+author: paul
 slug: Contact-form.html
 ---
 
