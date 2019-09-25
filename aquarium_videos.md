@@ -5,6 +5,9 @@ image: ta-bearded.png
 layout: page
 ---
 
+## Feeding African Cichlids September 2019
+{% include youtube.html id="b2ZGJremnYI" %}
+
 ## The Monster Tank 01 October 2019
 {% include youtube.html id="We48QqI8l9U" %}
 
