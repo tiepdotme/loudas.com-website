@@ -1,0 +1,70 @@
+- name: "Livingstoni"
+  scientific_name: "Nimbochromis livingstonii"
+  image: livingstoni.jpg
+  habitat: "Endemic to Lake Malawi. It is found in relatively shallow water around the shoreline, though it can also be seen in deeper (it has been recorded at depths of over 100m) water. These areas usually have soft substrates of mud or sand and are often thickly vegetated with beds of Vallisneria."
+  size: "250mm."
+  link: http://www.seriouslyfish.com/species/nimbochromis-livingstonii/
+
+- name: "Frontosa / Humphead Cichlid"
+  scientific_name: "Cyphotilapia frontosa"
+  image: frontosa.jpg
+  habitat: "Endemic to Lake Tanganyika. C. frontosa is most commonly observed in littoral, sediment-rich, rocky environments at depths of 6-120 metres, typically among boulders with patches of open substrate between 15-70 metres."
+  size: "255mm."
+  link: http://www.seriouslyfish.com/species/cyphotilapia-frontosa/
+
+- name: "Golden mbuna"
+  scientific_name: "Melanochromis auratus"
+  image: golden_mbuna.jpg
+  habitat: "Endemic to Lake Malawi. It inhabits rocky areas of shorelines, reefs and islands."
+  size: "110mm."
+  link: http://www.seriouslyfish.com/species/melanochromis-auratus/
+
+- name: "Eye biter"
+  scientific_name: "Dimidiochromis compressiceps"
+  image: eye_biter.jpg
+  habitat: "Endemic to Lake Malawi, where it’s widely distributed."
+  size: "250mm."
+  link: http://www.seriouslyfish.com/species/dimidiochromis-compressiceps/
+
+- name: "Electric yellow"
+  scientific_name: "Labidochromis caeruleus"
+  image: electric_yellow.jpg
+  habitat: "Endemic to Lake Malawi. It occurs in the northern part of the lake, between Cape Kaiser and Lundo, and also from Chirmbo Point to Charo. The “electric yellow” morph has been recorded only between Charo and Lion’s Cove."
+  size: "100mm."
+  link: http://www.seriouslyfish.com/species/labidochromis-caeruleus/
+
+- name: "Kennyi cichlid"
+  scientific_name: "Maylandia lombardoi / Pseudotropheus lombardoi"
+  image: kennyi.jpg
+  habitat: "Endemic to Lake Malawi. It has a limited natural range, being confined to the Mbenji Islands and Nkhomo Reef, but has also successfully been introduced around Namalenje Island. It inhabits the intermediate zone, where the rocky shoreline gives way to sandy substrates. These areas are characterised by large amounts of sediment."
+  size: "150mm."
+  link: http://www.seriouslyfish.com/species/pseudotropheus-lombardoi/
+
+- name: "Peacock cichlid"
+  scientific_name: "Aulonocara sp."
+  image: peacock_cichlid.jpg
+  habitat: "Inhabits the so-called intermediate zones of the lake, where rocky shores give way to sandy bottoms with scattered rocks. It displays a preference for natural caves, and several males may possess territories in larger examples, with dominant individuals tending to be located higher up and have darker colour patterning."
+  size: "130mm."
+  link: https://www.fishkeepingworld.com/peacock-cichlid/
+
+- name: "OB Peacock cichlid"
+  scientific_name: "Aulonocara sp. OB"
+  image: ob_peacock_cichlid.jpg
+  habitat: "OB Peacocks are a man made cross bred species, not a naturally occurring fish at all. The name OB is used to describe the varying black blotches that occur in many cichlid species. The originally discovered OB's were 'orange blotched', orange as you would expect, but the name has stuck and is used to describe all blotched fish, including those that are more pink/white, than orange. You will see quite a variety of colours on these fish, including varying degrees of blues, reds and yellows, as well as the pinkish/white background, and the dark blotches."
+  size: "130mm."
+  link: https://www.cichlid-forum.com/articles/ob_peacocks.php
+
+- name: "Longfin albino bristlenose"
+  scientific_name: "Ancistrus sp. Albino"
+  image: albino_pleco.jpg
+  habitat: "A. cirrhosus is native to the Argentinian portion of the Paraná river drainage but all A. cf. cirrhosus in the hobby are produced commercially and of uncertain origin."
+  size: "125mm."
+  link: http://www.seriouslyfish.com/species/ancistrus-cf-cirrhosus/
+
+- name: "Fairy cichlid"
+  scientific_name: "Neolamprologus pulcher"
+  image: fairy_cichlid.jpg
+  habitat: "Endemic to and widely-distributed throughout Lake Tanganyika with type locality the town of Kasanga in southwestern Tanzania."
+  size: "90mm."
+  link: http://www.seriouslyfish.com/species/neolamprologus-brichardi/
+

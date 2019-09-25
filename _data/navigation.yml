@@ -10,10 +10,12 @@
         subhref: "/aquarium_videos.html"
 - name: Fish
   subcategories:
-      - subtitle: Monster FIsh
+      - subtitle: Monster Fish
         subhref: "/the_monsters_under_the_house.html"
-      - subtitle: Friendly FIsh
+      - subtitle: Friendly Fish
         subhref: "/the_livingroom_community_tank.html"
+      - subtitle: African Cichlid Fish
+        subhref: "/the_african_cichlid_tank.html"
       - subtitle: Fish Videos
         subhref: "/aquarium_videos.html"
 - name: Contact
