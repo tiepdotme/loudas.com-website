@@ -12,6 +12,7 @@ description: Current fish I have in my monster tank
 <h1>{{ page.title }}</h1>
 <p>
 This is a list of "Monster Fish" I keep in my monster fish tank / aquarium in my Den. I'll try to keep it updated. 🤣<br />
+<a href="/aquarium_videos.html" class="btn btn-primary btn-lg">Check out my Aquarium videos</a>
 </p>
  </div>
 </div>
