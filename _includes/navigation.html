@@ -11,21 +11,25 @@
         <ul class="navbar-nav navbar-mobile mr-0">
           {% for item in site.data.navigation %}
            {% if item.subcategories != null %}
-          <li class="nav-item dropdown">
-              <a class="nav-link  p-1 rounded" href="#">{{ item.name }} &raquo;</a>
-              <ul class="navbar-nav submenu">
+           <li class="nav-item dropdown {% for subcat in item.subcategories %}{% if page.url == subcat.subhref %}active{% endif %}{% endfor %}">
+              <a class="nav-link  p-1 rounded" href="#!">{{ item.name }} &raquo;</a>
+              <ul class="navbar-nav submenu"{% for subcat in item.subcategories %}{% if page.url == subcat.subhref %} style="pointer-events: auto"{% endif %}{% endfor %}>
               {% for subcategory in item.subcategories %}
-              <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a class="nav-link p-1 rounded {% if page.url == subcategory.subhref %} active{% endif %}" href="{{ subcategory.subhref }}" title="{{ item.name }}">{{ subcategory.subtitle }}</a></li>
+              <li class="nav-item nav-item-fill {% if page.url == subcategory.subhref %} active{% endif %}"><a class="nav-link p-1 rounded {% if page.url == subcategory.subhref %} active{% endif %}" href="{{ subcategory.subhref }}" title="{{ item.name }}">{{ subcategory.subtitle }}</a></li>
               {% endfor %}
               </ul>
           </li>
            {% else %}
-           <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}">{{ item.name }}</a></li>
+             {% if item.link == "/" and page.url == "/index.html" %}
+                <li class="nav-item nav-item-fill active"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}">{{ item.name }}</a></li>
+             {% else %}
+                <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}">{{ item.name }}</a></li>
+             {% endif %}
            {% endif %}
           {% endfor %}
-          <li class="nav-item dropdown">
-              <a class="nav-link  p-1 rounded" href="#">Categories &raquo;</a>
-              <ul class="navbar-nav submenu">
+          <li class="nav-item dropdown{% if page.url == "/categories/" %} nav-item-fill active{% endif %}">
+          <a class="nav-link  p-1 rounded" href="#!">Categories &raquo;</a>
+              <ul class="navbar-nav submenu" {% if page.url == "/categories/" %} style="pointer-events: auto"{% endif %}>
                   {% for category in site.categories %}
                   {% capture category_name %}{{ category | first }}{% endcapture %}
                   <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a href="{{ site.url }}/categories/#{{ category_name | slugize }}" class="nav-link p-1 rounded">{{ category_name | slugsize }}</a></li>
