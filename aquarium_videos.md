@@ -15,7 +15,7 @@ layout: page
 
 {% include youtube.html id="d_VJTktP5Oo" %}
 
-## African Cichlids - Augist 2019 (fisrt setup)
+## African Cichlids - August 2019 (first setup)
 
 {% include youtube.html id="pykQFKS_tw8" %}
 
