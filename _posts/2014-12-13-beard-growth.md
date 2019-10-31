@@ -8,7 +8,7 @@ categories:
 ---
 So I guess this summer it's all about hair growth for me :)
 
-01-11-2014.jpg
+{% include thumbnail.html img="01-11-2014.jpg" %}   
 So I started clean shaven on the 1st of November; Here's a pic of me on that day (taken as I strolled along Kawhia beach with Helen)
 
 It started kind of just rebelling against the norms; in fact Helen's first response was not at all positive ! the stubble just didn't work for her, she hated it. This of course, spurred me on even more in my quest to buck against the norms of society :) (yep I'm a bad-ass)
@@ -25,7 +25,7 @@ Any ways .. here are some pics
 
 {% include thumbnail.html img="sunnies-right-13-12-2014.jpg" %}  
 {% include thumbnail.html img="sunnies-left-13-12-2014.jpg" %}  
-sunnies-front-13-12-2014.jpg" %}  
+{% include thumbnail.html img="sunnies-front-13-12-2014.jpg" %}  
 {% include thumbnail.html img="IMG_1544.jpg" %}  
 {% include thumbnail.html img="IMG_2843.jpg" %}  
 {% include thumbnail.html img="bearded.jpg" %}  
