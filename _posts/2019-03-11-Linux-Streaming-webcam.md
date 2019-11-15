@@ -19,12 +19,12 @@ If you're interested in how I did this, you can checkout the geeky stuff on:
 
 Here is the camera in action:
 
+{::comment}
 Since upgrading to Debian Buster my motion software has broken.  
 The stream _was_ located here:  
 [Fish Cam]({{ site.url}}/assets/php/webcam1.php){: target="_blank"}
+{:/comment}
 
-{::comment}
 <div class="videoContainer">
     <iframe title="Fish Cam" class="video" src="{{ site.url}}/assets/php/webcam1.php" allowfullscreen=""></iframe>
 </div>
-{:/comment}
