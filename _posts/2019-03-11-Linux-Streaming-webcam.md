@@ -26,5 +26,10 @@ The stream _was_ located here:
 {:/comment}
 
 <div class="videoContainer">
-    <iframe title="Fish Cam" class="video" src="{{ site.url}}/assets/php/webcam1.php" allowfullscreen=""></iframe>
+<img src="{{ site.url}}/assets/php/webcam1.php" alt="Fish Cam" class="shadow-lg rounded">
 </div>
+<br />
+<br />
+<br />
+<br />
+
