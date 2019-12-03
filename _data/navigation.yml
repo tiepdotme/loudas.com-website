@@ -16,5 +16,7 @@
         subhref: "/the_livingroom_community_tank.html"
       - subtitle: African Cichlid Fish
         subhref: "/the_african_cichlid_tank.html"
+      - subtitle: Mini Monster Fish
+        subhref: "/the_mini_monster_tank.html"
 - name: Contact
   link: /contact.html
