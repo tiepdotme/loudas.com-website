@@ -5,6 +5,9 @@ image: ta-bearded.png
 layout: page
 ---
 
+## New Flowerhorn November 2019
+{% include youtube.html id="ClLpFYzywnA" %}
+
 ## Feeding African Cichlids September 2019
 {% include youtube.html id="b2ZGJremnYI" %}
 
