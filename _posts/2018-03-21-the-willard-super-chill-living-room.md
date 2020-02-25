@@ -17,4 +17,4 @@ Basically we have no records (actually we have 5), but it gives us something to 
 
 Here's a wee video
 
-{% include vimeo.html id="261080307?app_id=122963" %}
+{% include youtube.html id="DPd6SE1VWEY" %}

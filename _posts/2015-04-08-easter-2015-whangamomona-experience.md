@@ -26,7 +26,7 @@ I spent some time with Adobe Premiere Pro as well piecing together a small 5 sec
 
 ## Whatcha think ?
 
-{% include vimeo.html id="125431376" %}
+{% include youtube.html id="4icpr86pWYE" %}
 
 So of course I had play around with different places to mount the camera on the bike. I totally got in touch with my inner movie director :)
 
@@ -37,7 +37,7 @@ Enjoy !!!
 
 ## The Feature Film
 
-{% include vimeo.html id="124294997" %}
+{% include youtube.html id="NUTckemibT0" %}
 
   
 Music by the excellent Shihad. Home again, My Mind's Sedate, Alive ( [Shihad.com](http://shihad.com){: target="_blank} )

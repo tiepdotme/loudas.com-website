@@ -32,7 +32,5 @@ and just because .. my favourite selfie taken this Winter:
 
 I almost forgot !!
 There are videos :) Here’s me coming down the hill under the Delta chair at Whakapapa NZ  
-{% include vimeo.html id="296353019" %}  
+{% include youtube.html id="Nc5uAPYTFNU" %}  
 
-And here is Helen doing the same  
-{% include vimeo.html id="298009668" %}

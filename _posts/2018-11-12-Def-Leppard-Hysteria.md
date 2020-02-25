@@ -27,7 +27,7 @@ The concert was opened by [The Scorpions](https://www.the-scorpions.com/){: targ
 
 You can't help but sing along to the Winds of Change ! and they sounded great! The band formed in 1965 .. **1965** !! and Klaus Meine still sounds the same ! amazing!
 
-{% include vimeo.html id="300375603" %}
+{% include youtube.html id="ESa4fGnysgg" %}
 
 ## Def Leppard
 But who I really came to see was Def Leppard !  
@@ -36,11 +36,11 @@ These guys got together in 1977, and the album they came to play, Hysteria, was 
 {% include thumbnail.html img="Def-Leppard-Hysteria.jpg" %}  
 So here I am sitting with a friend who I've known for .. err .. 29 years (sheesh), listening to music that was released 31 years ago, wow!
 
-{% include vimeo.html id="300375538" %}  
+{% include youtube.html id="Zbh770ql0Ro" %}  
 
 So cool, so funny :)
 
-{% include vimeo.html id="300375568" %}
+{% include youtube.html id="3lbJG5JxK68" %}
 
 Thanks Mark, I had a blast !
 

@@ -25,6 +25,4 @@ I've got Co2 diffusing into the inlet, and spent days researching the best subst
 
 {% include thumbnail.html img="20180210_131515966823438.jpg" %}
 
-{% include vimeo.html id="297387678" %}
-
 {% include thumbnail.html img="20180210_2057461346714590.jpg" %}

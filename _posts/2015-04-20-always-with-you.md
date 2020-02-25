@@ -13,6 +13,6 @@ On April 19, Helen and I rode to Raglan. We checked out [Soul Shoes, Raglan](htt
 And caught a bunch of it on video
 
 
-{% include vimeo.html id="125428722" %}
+{% include youtube.html id="Dn-mbgv618U" %}
 
 Music by Joe Satriani: "Always with you. Always with me" [Joe Satriani](http://www.satriani.com/){: target="_blank"}

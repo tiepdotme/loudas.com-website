@@ -14,4 +14,4 @@ Music:
   
 "Life's a happy song" performed by Kermit the Frog and Bret McKenzie
 
-{% include vimeo.html id="126110572" %}
+{% include youtube.html id="fIdosXHC928" %}

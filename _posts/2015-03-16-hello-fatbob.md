@@ -14,7 +14,7 @@ I did it about two weeks ago, and so far love it. Gobs of torque, much less top 
 
 Here's a bit of a video (taken by the dealership before I bought it)
 
-{% include vimeo.html id="297412593" %}
+{% include youtube.html id="W3WhPNdlAEA" %}
 
 
 I've already starting adding extras (or had extras added)
