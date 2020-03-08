@@ -1,0 +1,27 @@
+- name: "Leopard bushfish"
+  scientific_name: "Ctenopoma acutirostre"
+  image: ctenopoma.jpg
+  habitat: "Widely distributed throughout the middle Congo River basin in Republic of the Congo, Democratic Republic of the Congo, and Central African Republic, from Malebo (Stanley) Pool upstream to Boyoma (Stanley) Falls. It occurs in several major tributary systems, including the Kasai, Lefini, Ubangi, Tshuapa, and Lomami."
+  size: "100 – 150 mm."
+  link: https://www.seriouslyfish.com/species/ctenopoma-acutirostre/
+
+- name: "Gray Bichir"
+  scientific_name: "Polypterus senegalus"
+  image: gray_bichir.jpg
+  habitat: "This species is more widespread than any other bichir and occurs in no less than 26 countries in Africa, incuding Egypt, Cameroon, Ethiopia, Kenya, Mali, Ivory Coast, Tanzania, Nigeria, Senegal and others. It is usually found in shallow, slow moving waters of swamps, marshes and freshwater lagoons."
+  size: "400 – 500 mm."
+  link: https://www.seriouslyfish.com/species/polypterus-senegalus-senegalus/
+
+- name: "Albino Gray Bichir"
+  scientific_name: "Polypterus senegalus"
+  image: albino_gray_bichir.jpg
+  habitat: "This species is more widespread than any other bichir and occurs in no less than 26 countries in Africa, incuding Egypt, Cameroon, Ethiopia, Kenya, Mali, Ivory Coast, Tanzania, Nigeria, Senegal and others. It is usually found in shallow, slow moving waters of swamps, marshes and freshwater lagoons."
+  size: "400 – 500 mm."
+  link: https://www.seriouslyfish.com/species/polypterus-senegalus-senegalus/
+
+- name: "Delhezi Bichir / Armoured Bichir"
+  scientific_name: "Polypterus delhezi"
+  image: delhezi.jpg
+  habitat: "Democratic Republic of Congo. It is found in lakes, streams and flooded areas. These are often heavily vegetated."
+  size: "350 mm."
+  link: https://www.seriouslyfish.com/species/polypterus-delhezi/

@@ -18,5 +18,7 @@
         subhref: "/the_african_cichlid_tank.html"
       - subtitle: Mini Monster Fish
         subhref: "/the_mini_monster_tank.html"
+      - subtitle: Congo Fish
+        subhref: "/the_congo_tank.html"
 - name: Contact
   link: /contact.html
