@@ -29,8 +29,8 @@ This is a list of Vinyls / Records / LPs I have. I'll try to keep it updated. ðŸ
 </thead>
 
 {% for record in site.data.lp_collection %}
-    <tr role="row" class="odd even">
-        <td class="details-control"><a href="#" class="show_tracks" rel="tracklisting">+<span class="tracks">{% if record.tracks != null %}
+    <tr class="">
+        <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting">+<span class="tracks">{% if record.tracks != null %}
         {% for track in record.tracks %}
         {{ track[0] }}. {{ track[1] }} <br />
         {% endfor %}
