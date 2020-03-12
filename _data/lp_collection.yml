@@ -1,0 +1,18 @@
+- artist: "Philadelphia Orchestra"
+  album_name: "Handel's Messiah"
+  tracks:
+      1: "Symphony"
+      2: "Comfort Ye, My People...Ev'ry Valley Shall Be Exalted"
+- artist: "Billy Idol"
+  album_name: "Billy Idol"
+  tracks:
+      1: "Come On, Come On"
+      2: "White Wedding"
+      3: "Hot in the City"
+      4: "Dead on Arrival"
+      5: "Nobody's Business"
+      6: "Love Calling"
+      7: "Hole in the Wall"
+      8: "Shooting Stars"
+      9: "It's So Cruel"
+      10: "Congo Man"

@@ -55,6 +55,11 @@ $(document).ready(function(){
     } else {
         console.log('CLIENT: service worker is not supported.');
     }
+    $('#lp_collection').DataTable( {
+        "columnDefs": [ 
+            { "orderable": false, "targets": 0 }
+        ]
+    });
 });
 
 $(".navbar-brand").mouseover(function(){
@@ -74,13 +79,22 @@ $('a[target="_blank"]').each(function() {
 
 $('img[rel="lightbox"]').on('click', function() {
     var url = $(this).attr('src').replace('thumbnails/','');
+    $('#ModalImageLabel').html('Larger image ...');
     $('#lightboxModalBody').html('<img src="' + url +'" alt="" class="w-100" \/>');
     $('#lightboxModal').modal('show');
 });
 
 $('a[rel="lightbox"]').on('click', function() {
     var url = $(this).data('image').replace('thumbnails/','');
+    $('#ModalImageLabel').html('Larger image ...');
     $('#lightboxModalBody').html('<img src="' + url +'" alt="" class="w-100" \/>');
+    $('#lightboxModal').modal('show');
+});
+
+$('a[rel="tracklisting"]').on('click', function() {
+    var spantext = $(this).find('span.tracks').clone();
+    $('#lightboxModalBody').html(spantext);
+    $('#ModalImageLabel').html('Track listing');
     $('#lightboxModal').modal('show');
 });
 
