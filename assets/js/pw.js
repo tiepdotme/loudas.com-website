@@ -58,7 +58,8 @@ $(document).ready(function(){
     $('#lp_collection').DataTable( {
         "columnDefs": [ 
             { "orderable": false, "targets": 0 }
-        ]
+        ],
+        "order": [[ 1, "asc" ]]
     });
 });
 

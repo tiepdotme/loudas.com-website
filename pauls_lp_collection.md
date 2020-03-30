@@ -28,7 +28,8 @@ This is a list of Vinyls / Records / LPs I have. I'll try to keep it updated. ðŸ
     </tr>
 </thead>
 
-{% for record in site.data.lp_collection %}
+{% assign sortedLPs = site.data.lp_collection | sort: 'artist' %}
+{% for record in sortedLPs %}
     <tr class="">
         <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting">+<span class="tracks">{% if record.tracks != null %}
         {% for track in record.tracks %}
