@@ -1,8 +1,3 @@
-- artist: "Philadelphia Orchestra"
-  album_name: "Handel's Messiah"
-  tracks:
-      1: "Symphony"
-      2: "Comfort Ye, My People...Ev'ry Valley Shall Be Exalted"
 - artist: "Billy Idol"
   album_name: "Billy Idol"
   tracks:
@@ -133,7 +128,7 @@
       11: Anything Goes
       12: Rocket Queen
 - artist: Mark Knopfler
-  album_name: :ast exit to Brooklyn
+  album_name: Last exit to Brooklyn
   tracks:
       1: Last Exit To Brooklyn
       2: Victims
@@ -213,3 +208,260 @@
       8: Dun Ringill
       9: Flying Dutchman
       10: Elegy
+- artist: Berlin Philharmonic
+  album_name: Water Music Suite
+  tracks:
+      1: Overture	
+      2: Adagio E Staccato	
+      3: (Allegro)	
+      4: Air	
+      5: (Allegretto)	
+      6: Lentement	
+      7: (Menuet)	
+      8: Alla Hornpipe	
+      9: Ouverture	
+      10: Bourrée	
+      11: "La Paix: Largo Alla Siciliana"
+      12: "La Réjouissance: Allegro"
+      13: Menuet I	
+      14: Menuet II
+- artist: New Zealand Symphony Orchestra
+  album_name: The Great Classics
+  tracks:
+      1: Radetzky March
+      2: Flight Of The Bumble Bee
+      3: Dance Of The Sugar Plum Fairy
+      4: "Piano Concerto No. 21 In C, K.467 - Andante"
+      5: Can Can
+      6: Pantomime
+      7: Spartacus - Adagio
+      8: March Of The Toreadors
+      9: The Bartered Bride - Polka
+      10: "Air-Suite No. 3 In D Major"
+      11: Karelia Suite - Intermezzo
+      12: Cavalleria Rusticana - Intermezzo
+      13: Donna Diana Overture
+      14: Trumpet Voluntary
+      15: "Slavonic Dance No. 10 In E Minor"
+- artist: Varios Artists
+  album_name: Easy Rider
+  tracks:
+      1: Steppenwolf - The Pusher
+      2: Steppenwolf - Born To Be Wild
+      3: Smith (3) - The Weight
+      4: The Byrds - Wasn't Born To Follow
+      5: The Holy Modal Rounders - If You Want To Be A Bird
+      6: The Fraternity Of Man - Don't Bogart Me
+      7: The Jimi Hendrix Experience - If Six Was Nine
+      8: The Electric Prunes - Kyrie Eleison
+      9: Roger McGuinn - It's Alright Ma (I'm Only Bleeding)
+      10: Roger McGuinn - Ballad Of Easy Rider
+- artist: Varios Artists
+  album_name: Woodstock
+  tracks:
+      1: John Sebastian - I Had a Dream
+      2: Canned Heat - Going Up the Country
+      3: Chip Monck - Stage Announcements
+      4: Richie Havens - Freedom
+      5: Country Joe And The Fish - Rock & Soul Music
+      6: Arlo Guthrie - Coming Into Los Angeles
+      7: Sha-Na-Na* - At the Hop
+      8: Country Joe McDonald - The Fish Cheer/I-Feel-Like-I'm-Fixin'-to-Die Rag
+      9: Joan Baez, Jeremy Shurtleff - Drug Store Truck Drivin' Man
+      10: Joan Baez - Joe Hill
+      11: John Morris (6) - Stage Announcements	
+      12: "Crosby, Stills & Nash - Suite: Judy Blue Eyes"
+      13: Crosby, Stills, Nash & Young - Sea of Madness
+      14: Crosby, Stills, Nash & Young - Wooden Ships
+      15: The Who - We're Not Gonna Take It
+      16: Hugh Romney - Stage Announcements
+      17: Cocker - With a Little Help From My Friends
+      18: No Artist - Rainstorm, Crowd Sounds, Announcements & General Hysteria	
+      19: No Artist - Crowd Rain Chant
+      20: Santana - Soul Sacrifice
+      21: Muskrat (2) - Stage Announcements	
+      22: Ten Years After - I'm Going Home
+      23: Jefferson Airplane - Volunteers
+      24: Max Yasgur - Max Yasgur
+      25: Sly & The Family Stone - Dance to the Music
+      26: Sly & The Family Stone - Music Lover
+      27: Sly & The Family Stone - I Want to Take You Higher
+      28: John Sebastian - Rainbows All Over Your Blues
+      29: The Paul Butterfield Blues Band - Love March
+      30: Jimi Hendrix - Star Spangled Banner	
+      31: Jimi Hendrix - Purple Haze & Instrumental Solo
+- artist: The Philadelphia Orchestra
+  album_name: Messiah
+  tracks:
+      1: "Overture"
+      2: "Recitative: Comfort Ye, My People"
+      3: "Air: Every Valley Shall Be Exalted"
+      4: "Chorus: And The Glory Of The Lord"
+      5: "Recitative: Thus Saith The Lord"
+      6: "Air: But Who May Abide"
+      7: "Chorus: And He Shall Purify"
+      8: "Recitative: Behold A Virgin Shall Conceive"
+      9: "Air: O Thou That Tellest Good Tidings To Zion"
+      10: "Chorus: For Unto Us A Child Is Born"
+      11: "Pastoral: Symphony"
+      12: "Recitative: There Were Shepherds"
+      13: "Recitative: And The Angel Said Unto Them"
+      14: "Recitative: A Suddenly There Was With The Angel"
+      15: "Chorus: Glory To God"
+      16: "Recitative: Then Shall The Eyes Of The Blind Be Open"
+      17: "Air: He Shall Feed His Flock"
+      18: "Chorus: His Yoke Is Easy"
+      19: "Chorus: Behold The Lamb Of God"
+      20: "Air: He Was Despised"
+      21: "Chorus: Surely He Hath Borne Our Griefs"
+      22: "Chorus: And With His Stripes We Are Healed"
+      23: "Chorus: All We Like Sheep Have Gone Astray"
+      24: "Chorus: Lift Up Your Heads"
+      25: "Air: Why Do The Nations?"
+      26: "Recitative: He That Dwelleth In Heaven"
+      27: "Air: Thou Shalt Break Him"
+      28: "Chorus: Hallelujah!"
+      29: "Air: I Know That My Redeemer Liveth"
+      30: "Recitative: Behold, I Tell You A Mystery"
+      31: "Air: The Trumpet Shall Sound"
+      32: "Chorus: Worthy Is The Lamb"
+- artist: Gary Moore
+  album_name: Still got the blues for you
+  tracks:
+      1: Moving On
+      2: Oh Pretty Woman
+      3: Walking By Myself
+      4: Still Got The Blues
+      5: Texas Strut
+      6: Too Tired
+      7: King Of The Blues
+      8: As The Years Go Passing By
+      9: Midnight Blues
+- artist: Fleetwood Mac
+  album_name: Greatest Hits
+  tracks:
+      1: Rhiannon
+      2: Don't Stop
+      3: Go Your Own Way
+      4: Hold Me
+      5: Everywhere
+      6: Gypsy
+      7: As Long As You Follow
+      8: Say You Love Me
+      9: Dreams
+      10: Little Lies
+      11: Sara
+      12: Tusk
+      13: No Questions Asked
+- artist: Electric Light Orchestra - ELO
+  album_name: A new world record
+  tracks:
+      1: Tightrope
+      2: Telephone Line
+      3: Rockaria!
+      4: Mission (A World Record)
+      5: So Fine
+      6: Livin' Thing
+      7: Above The Clouds
+      8: Do Ya
+      9: Shangri-La
+- artist: Rod Stewart
+  album_name: Foot loose & fancy free
+  tracks:
+      1: Hot Legs
+      2: You're Insane
+      3: You're In My Heart
+      4: Born Loose
+      5: You Keep Me Hangin' On
+      6: (If Loving You Is Wrong) I Don't Want To Be Right
+      7: You Really Got A Nerve
+      8: I Was Only Joking
+- artist: Celedonio, Celin, Pepe, and Angel Romero
+  album_name: The Royal family of Spanish guitar
+  tracks:
+      1: Noche En Malaga
+      2: Spanish Dance No. 6
+      3: Lagrima (Prelude)
+      4: Romantic Prelude
+      5: "'Allegretto' From Sonatina In A Major"
+      6: Prelude No. 3 In A Minor
+      7: Sevillanas
+      8: "'Intermezzo' From Goyescas"
+      9: Llamada
+      10: Sevilla
+      11: Vidalita
+      12: Recuerdos De La Alhambra	
+      13: "Obbligato On 'Etude In B Minor'"
+- artist: Madonna
+  album_name: Like a virgin
+  tracks:
+      1: Material Girl
+      2: Angel
+      3: Like A Virgin
+      4: Over And Over
+      5: Love Don't Live Here Anymore
+      6: Into The Groove
+      7: Dress You Up
+      8: Shoo-Bee-Doo
+      9: Pretender
+      10: Stay
+- artist: Brian Ferry
+  album_name: Boys and girls
+  tracks:
+      1: Sensation
+      2: Slave To Love
+      3: Don't Stop The Dance
+      4: A Waste Land
+      5: Windswept
+      6: The Chosen One
+      7: Valentine
+      8: Stone Woman
+      9: Boys And Girls
+- artist: Bee Gees
+  album_name: ...live
+  tracks:
+      1: I've Gotta Get A Message To You
+      2: Love So Right
+      3: Edge Of The Universe
+      4: Come On Over
+      5: Can't Keep A Good Man Down
+      6: New York Mining Disaster 1941
+      7: Run To Me / World
+      8: Medley (Holiday, I Can't See Nobody, I Started A Joke, Massachusetts)
+      9: How Can You Mend A Broken Heart
+      10: To Love Somebody
+      11: You Should Be Dancing
+      12: Boogie Child
+      13: Down The Road
+      14: Words
+      15: Wind Of Change
+      16: Nights On Broadway
+      17: Jive Talkin'
+      18: Lonely Days
+- artist: Jimmy Barnes
+  album_name: Freight train heart
+  tracks:
+      1: Driving Wheels
+      2: Seven Days
+      3: Too Much Ain't Enough Love
+      4: Do Or Die
+      5: Waitin' For The Heartache
+      6: Last Frontier
+      7: I Wanna Get Started With You
+      8: I'm Still On Your Side
+      9: Lessons In Love
+      10: Walk On
+- artist: ZZ Top
+  album_name: Eliminator
+  tracks:
+      1: Gimme All Your Lovin
+      2: Got Me Under Pressure
+      3: Sharp Dressed Man
+      4: I Need You Tonight
+      5: I Got The Six
+      6: Legs
+      7: Thug
+      8: TV Dinners
+      9: Dirty Dog
+      10: If I Could Only Flag Her Down
+      11: Bad Girl

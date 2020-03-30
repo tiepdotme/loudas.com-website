@@ -59,7 +59,11 @@ $(document).ready(function(){
         "columnDefs": [ 
             { "orderable": false, "targets": 0 }
         ],
-        "order": [[ 1, "asc" ]]
+        "order": [[ 1, "asc" ]],
+        "oLanguage": {
+            "sSearch": "Search Albums:",
+            "sLengthMenu": "Display _MENU_ Albums"
+        }
     });
 });
 
