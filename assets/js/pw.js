@@ -120,6 +120,13 @@ $('a[rel="tracklisting"]').on('click', function() {
     $('#lightboxModal').modal('show');
 });
 
+$('tr[rel="tracklisting"]').on('click', function () {
+    var spantext = $(this).find('div.tracks').clone();
+    $('#lightboxModalBody').html(spantext);
+    $('#ModalImageLabel').html('Track listing');
+    $('#lightboxModal').modal('show');
+});
+
 var verifyCaptcha = function(response) {
     if(response.length == 0) {
     } else {

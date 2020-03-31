@@ -33,7 +33,7 @@ and click the + symbol to view the track listing for each album.
 
 {% assign sortedLPs = site.data.lp_collection | sort: 'artist' %}
 {% for record in sortedLPs %}
-    <tr class="">
+    <tr class="ablum_entry" rel="tracklisting">
         <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting" data-original-title="Show tracks for: {{ record.artist }} - {{ record.album_name}} " data-toggle="tooltip">+<div class="tracks">{% if record.tracks != null %}
         <div class="row">
             <div class="col-md-6 trext-sm-center text-md-right pb-5">
