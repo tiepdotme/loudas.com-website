@@ -1,5 +1,6 @@
 - artist: "Billy Idol"
   album_name: "Billy Idol"
+  image: billy_idol.jpg
   tracks:
       1: "Come On, Come On"
       2: "White Wedding"
@@ -13,6 +14,7 @@
       10: "Congo Man"
 - artist: "Neil Diamond"
   album_name: "Diamonds"
+  image: neil_diamond_diamonds.jpg
   tracks:
     1: Cracklin' Rosie
     2:  Free Life
@@ -41,6 +43,7 @@
     25:  Morningside
 - artist: "Air Supply"
   album_name: "Greatest Hits"
+  image: airsupply-gh.jpg
   tracks:
       1: "Lost in Love"
       2: "Even the Nights Are Better"
@@ -53,6 +56,7 @@
       9: "Sweet Dreams"
 - artist: Black Sabbath
   album_name: Paranoid
+  image: black_sabbath_paranoid.jpg
   tracks:
       1: War Pigs
       2: Paranoid
@@ -64,6 +68,7 @@
       8: Fairies Wear Boots
 - artist: Deep Purple
   album_name: Machine Head
+  image: deep_purple_machine_head.jpg
   tracks:
       1: Highway Star
       2: Maybe I'm A Leo
@@ -74,6 +79,7 @@
       7: Space Truckin'
 - artist: Bob Marley
   album_name: Legend
+  image: bob_marley_legend.jpg
   tracks:
       1: Is This Love
       2: No Woman No Cry
@@ -91,6 +97,7 @@
       14: Jamming
 - artist: Boney M
   album_name: The Magic of Boney M
+  image: boney_m_20hits.jpg
   tracks:
       1: Rivers Of Babylon
       2: Daddy Cool
@@ -114,6 +121,7 @@
       20: Hooray! Hooray! It's A Holi-Holiday
 - artist: Guns N' Roses
   album_name: Apetite for Destruction
+  image: gnr_apetite.jpg
   tracks:
       1: Welcome To The Jungle
       2: It's So Easy
@@ -129,6 +137,7 @@
       12: Rocket Queen
 - artist: Mark Knopfler
   album_name: Last exit to Brooklyn
+  image: mark_knopfler_last_exit.jpg
   tracks:
       1: Last Exit To Brooklyn
       2: Victims
@@ -141,6 +150,7 @@
       9: Finale - Last Exit To Brooklyn
 - artist: Jethro Tull
   album_name: Living in the past
+  image: jethro_tull_living.jpg
   tracks:
       1: Song For Jeffrey
       2: Love Story
@@ -165,6 +175,7 @@
       21: Nursie
 - artist: Def Leppard
   album_name: Hysteria
+  image: def_leppard_hysteria.jpg
   tracks:
       1: Women
       2: Rocket
@@ -180,6 +191,7 @@
       12: Love And Affection
 - artist: Eric Clapton
   album_name: Unplugged
+  image: eric_clapton_unplugged.jpg
   tracks:
       1: Signe
       2: Before You Accuse Me
@@ -197,6 +209,7 @@
       14: Rollin' And Tumblin'
 - artist: Jethro Tull
   album_name: Stormwatch
+  image: jethro_tull_stormwatch.jpg
   tracks:
       1: North Sea Oil
       2: Orion
@@ -210,6 +223,7 @@
       10: Elegy
 - artist: Berlin Philharmonic
   album_name: Water Music Suite
+  image: berlin_wms.jpg
   tracks:
       1: Overture	
       2: Adagio E Staccato	
@@ -227,6 +241,7 @@
       14: Menuet II
 - artist: New Zealand Symphony Orchestra
   album_name: The Great Classics
+  image: nzso_classics.jpg
   tracks:
       1: Radetzky March
       2: Flight Of The Bumble Bee
@@ -245,6 +260,7 @@
       15: "Slavonic Dance No. 10 In E Minor"
 - artist: Various Artists
   album_name: Easy Rider
+  image: easy_rider.jpg
   tracks:
       1: Steppenwolf - The Pusher
       2: Steppenwolf - Born To Be Wild
@@ -258,6 +274,7 @@
       10: Roger McGuinn - Ballad Of Easy Rider
 - artist: Various Artists
   album_name: Woodstock
+  image: woodstock.jpg
   tracks:
       1: John Sebastian - I Had a Dream
       2: Canned Heat - Going Up the Country
@@ -292,6 +309,7 @@
       31: Jimi Hendrix - Purple Haze & Instrumental Solo
 - artist: The Philadelphia Orchestra
   album_name: Messiah
+  image: phil_messiah.jpg
   tracks:
       1: "Overture"
       2: "Recitative: Comfort Ye, My People"
@@ -327,6 +345,7 @@
       32: "Chorus: Worthy Is The Lamb"
 - artist: Gary Moore
   album_name: Still got the blues for you
+  image: gary_moore_still_got.jpg
   tracks:
       1: Moving On
       2: Oh Pretty Woman
@@ -339,6 +358,7 @@
       9: Midnight Blues
 - artist: Fleetwood Mac
   album_name: Greatest Hits
+  image: fleetwood_mac_gh.jpg
   tracks:
       1: Rhiannon
       2: Don't Stop
@@ -355,6 +375,7 @@
       13: No Questions Asked
 - artist: Electric Light Orchestra - ELO
   album_name: A new world record
+  image: elo_a_new_world_record.jpg
   tracks:
       1: Tightrope
       2: Telephone Line
@@ -367,6 +388,7 @@
       9: Shangri-La
 - artist: Rod Stewart
   album_name: Foot loose & fancy free
+  image: rod_stewart_footloose.jpg
   tracks:
       1: Hot Legs
       2: You're Insane
@@ -378,6 +400,7 @@
       8: I Was Only Joking
 - artist: Celedonio, Celin, Pepe, and Angel Romero
   album_name: The Royal family of Spanish guitar
+  image: the_royal_family_of_spanish_guitar.jpg
   tracks:
       1: Noche En Malaga
       2: Spanish Dance No. 6
@@ -394,6 +417,7 @@
       13: "Obbligato On 'Etude In B Minor'"
 - artist: Madonna
   album_name: Like a virgin
+  image: madonna_virgin.jpg
   tracks:
       1: Material Girl
       2: Angel
@@ -407,6 +431,7 @@
       10: Stay
 - artist: Brian Ferry
   album_name: Boys and girls
+  image: brain_ferry_bag.jpg
   tracks:
       1: Sensation
       2: Slave To Love
@@ -419,6 +444,7 @@
       9: Boys And Girls
 - artist: Bee Gees
   album_name: ...live
+  image: bee_gees_live.jpg
   tracks:
       1: I've Gotta Get A Message To You
       2: Love So Right
@@ -440,6 +466,7 @@
       18: Lonely Days
 - artist: Jimmy Barnes
   album_name: Freight train heart
+  image: jimmy_barnes_freight.jpg
   tracks:
       1: Driving Wheels
       2: Seven Days
@@ -453,6 +480,7 @@
       10: Walk On
 - artist: ZZ Top
   album_name: Eliminator
+  image: zz_top_eliminator.jpg
   tracks:
       1: Gimme All Your Lovin
       2: Got Me Under Pressure
@@ -467,6 +495,7 @@
       11: Bad Girl
 - artist: Queen
   album_name: Greatest Hits
+  image: queen_gh.jpg
   tracks:
       1: Another One Bites The Dust
       2: Bohemian Rhapsody
@@ -484,6 +513,7 @@
       14: Play The Game
 - artist: Madness
   album_name: Complete Madness
+  image: madness.jpg
   tracks:
       1: Embarrassment
       2: Shut Up
@@ -503,6 +533,7 @@
       16: The Return Of The Los Palmas 7
 - artist: Icehouse
   album_name: Primitive man
+  image: icehouse_primitive.jpg
   tracks:
       1: Uniform
       2: Street Cafe
@@ -516,6 +547,7 @@
       10: Goodnight, Mr. Matthews
 - artist: Dire Straits
   album_name: Love over gold
+  image: dire_straits_love_over_gold.jpg
   tracks:
       1: Telegraph Road
       2: Private Investigations
@@ -524,6 +556,7 @@
       5: It Never Rains
 - artist: Split Enz
   album_name: History never repeats
+  image: split_enz_the_best.jpg
   tracks:
       1: Give It A Whirl
       2: My Mistake
@@ -543,6 +576,7 @@
       16: Charlie
 - artist: Cyndi Lauper
   album_name: She's so unusual
+  image: cyndi_lauper_shes_so_unusual.jpg
   tracks:
       1: Money Changes Everything
       2: Girls Just Want To Have Fun
@@ -556,6 +590,7 @@
       10: Yeah Yeah
 - artist: Enya
   album_name: Watermark
+  image: enya_watermark.jpg
   tracks:
       1: Watermark
       2: Cursum Perficio
@@ -584,6 +619,7 @@
       10: Night Prowler
 - artist: Cat Stevens
   album_name: Greatest Hits
+  image: cat_stevens_gh.jpg
   tracks:
       1: Wild World
       2: Oh Very Young
@@ -599,6 +635,7 @@
       12: Another Saturday Night
 - artist: Metallica
   album_name: ...And justice for all
+  image: metallica_justice.jpg
   tracks:
       1: Blackened
       2: ...And Justice For All
@@ -611,6 +648,7 @@
       9: Dyers Eve
 - artist: Nirvana
   album_name: Nevermind
+  image: nirvana_nevermind.jpg
   tracks:
       1: Smells Like Teen Spirit
       2: In Bloom
@@ -626,6 +664,7 @@
       12: Something In The Way
 - artist: Iron Maiden
   album_name: Seventh son of a seventh son
+  image: iron_maiden_seventh.jpg
   tracks:
       1: Moonchild
       2: Infinite Dreams
@@ -637,6 +676,7 @@
       8: Only The Good Die Young
 - artist: Bob Dylan
   album_name: The times they are a-changin'
+  image: bob_dylan_the_times.jpg
   tracks:
       1: The Times They Are A-Changin'
       2: Ballad Of Hollis Brown
@@ -650,6 +690,7 @@
       10: Restless Farewell
 - artist: Pink Floyd
   album_name: A momentary lapse of reason
+  image: pink_momentary.jpg
   tracks:
       1: Signs Of Life
       2: Learning To Fly
@@ -664,6 +705,7 @@
       11: Sorrow
 - artist: Bon Jovi
   album_name: Slippery When Wet
+  image: bon_jovi_sww.jpg
   tracks:
       1: Let It Rock
       2: You Give Love A Bad Name
@@ -676,8 +718,8 @@
       9: Never Say Goodbye
       10: Wild In The Streets
 - artist: 10cc
-  image: 10cc-gh.jpg
   album_name: Greatest Hits 1972-1978
+  image: 10cc-gh.jpg
   tracks:
       1: Rubber Bullets
       2: Donna
@@ -693,6 +735,7 @@
       12: I'm Not In Love
 - artist: Iron Maiden
   album_name: The number of the beast
+  image: iron_maiden_number.jpg
   tracks:
       1: Invaders
       2: Children Of The Damned
@@ -704,6 +747,7 @@
       8: Hallowed Be Thy Name
 - artist: Dire Straits & Mark Knopfler
   album_name: Private investigations
+  image: dire_straits_private_investigations.jpg
   tracks:
       1: Dire Straits - Sultans Of Swing
       2: Dire Straits - Love Over Gold
@@ -721,6 +765,7 @@
       14: Mark Knopfler & Emmylou Harris - All The Roadrunning
 - artist: David Bowie
   album_name: The rise and fall of Ziggy Stardust and the spiders from Mars
+  image: david_bowie_the_rise_and_fall.jpg
   tracks:
       1: Five Years
       2: Soul Love
@@ -735,6 +780,7 @@
       11: "Rock 'N' Roll Suicide"
 - artist: The Jimi Hendrix experience
   album_name: Are you experienced?
+  image: jimi_experienced.jpg
   tracks:
       1: Foxy Lady	
       2: Manic Depression	
@@ -749,6 +795,7 @@
       11: Are You Experienced
 - artist: Stevie Ray Vaughan and Double Trouble
   album_name: The Essential
+  image: srv_essential.jpg
   tracks:
       1: Love Struck Baby	
       2: Pride And Joy	
@@ -769,6 +816,7 @@
       17: Life By The Drop
 - artist: Pink Floyd
   album_name: A collection of great dance songs
+  image: pink_dance_songs.jpg
   tracks:
       1: One Of These Days
       2: Money
@@ -778,6 +826,7 @@
       6: Another Brick In The Wall (Part 2)
 - artist: The Beatles
   album_name: Sgt Peppers lonely hearts club band
+  image: beatles_sgt.jpg
   tracks:
       1: Sgt. Peppers Lonely Hearts Club Band
       2: With A Little Help From My Friends
@@ -794,6 +843,7 @@
       13: A Day In The Life
 - artist: Pink Floyd
   album_name: The wall
+  image: pink_wall.jpg
   tracks:
       1: In The Flesh?
       2: The Thin Ice
@@ -823,6 +873,7 @@
       26: Outside The Wall
 - artist: The Beatles
   album_name: A hard day's night
+  image: beatles_hard_day.jpg
   tracks:
       1: A Hard Day's Night	
       2: I Should Have Known Better	
@@ -839,6 +890,7 @@
       13: I'll Be Back
 - artist: Pink Floyd
   album_name: Dark side of the moon
+  image: pink_dark_side.jpg
   tracks:
       1: Speak To Me
       2: Breathe
@@ -852,6 +904,7 @@
       10: Eclipse
 - artist: Niggers with atitude N.W.A (NWA)
   album_name: Straight outta compton
+  image: nwa_straight.jpg
   tracks:
       1: Straight Outta Compton	
       2: _ _ _ _ Tha Police (Fill In The Blanks)
@@ -865,6 +918,7 @@
       10: Quiet On Tha Set
 - artist: Johnny Cash
   album_name: The legend of Cash
+  image: johnny_cash_legend.jpg
   tracks:
       1: Ring Of Fire	
       2: I Walk The Line	
@@ -889,6 +943,7 @@
       21: Hurt
 - artist: Elton John
   album_name: Greatest Hits
+  image: elton_john_gh.jpg
   tracks:
       1: Your Song
       2: Daniel
@@ -902,6 +957,7 @@
       10: Crocodile Rock
 - artist: The Beatles
   album_name: Abbey road
+  image: beatles_abbey.jpg
   tracks:
       1: Come Together
       2: Something
@@ -920,8 +976,9 @@
       15: Carry That Weight
       16: The End
       17: Her Majesty
-- artist: Neil Daimond
+- artist: Neil Diamond
   album_name: Serenade
+  image: neil_diamond_serenade.jpg
   tracks:
       1: I've Been This Way Before
       2: Rosemary's Wine
@@ -931,8 +988,9 @@
       6: Yes I Will
       7: Reggae Strut
       8: The Gift Of Song
-- artist: The doobie brothers
+- artist: The Doobie brothers
   album_name: Listen to the music
+  image: doobie_listen.jpg
   tracks:
       1: Listen To The Music
       2: Eyes Of Silver
@@ -948,6 +1006,7 @@
       12: Road Angel
 - artist: Boston
   album_name: Boston
+  image: boston.jpg
   tracks:
       1: More Than A Feeling
       2: Peace Of Mind
@@ -959,6 +1018,7 @@
       8: Let Me Take You Home Tonight
 - artist: David Lee Roth
   album_name: Crazy from the heat
+  image: david_lee_roth_crazy.jpg
   tracks:
       1: Easy Street
       2: Just A Gigolo
@@ -967,6 +1027,7 @@
       5: Coconut Grove
 - artist: Electric Light Orchestra - ELO
   album_name: Out of the blue
+  image: elo_out_of_the_blue.jpg
   tracks:
       1: Turn To Stone
       2: It's Over
@@ -987,6 +1048,7 @@
       17: Wild West Hero
 - artist: Bee Gees
   album_name: Spirits having flown
+  image: bee_gees_spirits.jpg
   tracks:
       1: Tragedy
       2: Too Much Heaven
@@ -1000,6 +1062,7 @@
       10: Until
 - artist: The Shadows
   album_name: Moonlight shadows
+  image: the_shadows_moonlight.jpg
   tracks:
       1: Every Breath You Take -  Written-By – Sting
       2: Hello -  Written-By – L. Richie
@@ -1019,6 +1082,7 @@
       16: Walk Of Life - Written-By – M. Knopfler
 - artist: George Thorogood & the destroyers
   album_name: 30 years of rock
+  image: george_thorogood_30_years.jpg
   tracks:
       1: Madison Blues
       2: One Bourbon, One Scotch, One Beer
@@ -1038,6 +1102,7 @@
       16: Who Do You Love? (Rothrock Remix 2004) (Previously Unreleased)
 - artist: Electric Light Orchestra - ELO
   album_name: ELO's greatest hits
+  image: elo_gh.jpg
   tracks:
       1: Evil Woman
       2: Livin' Thing
