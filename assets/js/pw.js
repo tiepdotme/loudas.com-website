@@ -64,6 +64,9 @@ $(document).ready(function(){
             "sSearch": "Search Albums:",
             "sLengthMenu": "Display _MENU_ Albums",
             "sInfo": "Showing _START_ to _END_ of _TOTAL_ Albums"
+        },
+        "drawCallback": function( settings ) {
+            $('[data-toggle="tooltip"]').tooltip();
         }
     });
     $(function () {
@@ -101,7 +104,7 @@ $('a[rel="lightbox"]').on('click', function() {
 });
 
 $('a[rel="tracklisting"]').on('click', function() {
-    var spantext = $(this).find('span.tracks').clone();
+    var spantext = $(this).find('div.tracks').clone();
     $('#lightboxModalBody').html(spantext);
     $('#ModalImageLabel').html('Track listing');
     $('#lightboxModal').modal('show');

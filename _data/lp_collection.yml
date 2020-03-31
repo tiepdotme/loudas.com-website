@@ -243,7 +243,7 @@
       13: Donna Diana Overture
       14: Trumpet Voluntary
       15: "Slavonic Dance No. 10 In E Minor"
-- artist: Varios Artists
+- artist: Various Artists
   album_name: Easy Rider
   tracks:
       1: Steppenwolf - The Pusher
@@ -256,7 +256,7 @@
       8: The Electric Prunes - Kyrie Eleison
       9: Roger McGuinn - It's Alright Ma (I'm Only Bleeding)
       10: Roger McGuinn - Ballad Of Easy Rider
-- artist: Varios Artists
+- artist: Various Artists
   album_name: Woodstock
   tracks:
       1: John Sebastian - I Had a Dream
@@ -582,7 +582,7 @@
       9: Love Hungry Man
       10: Night Prowler
 - artist: Cat Stevens
-  album_name: Greatest hits
+  album_name: Greatest Hits
   tracks:
       1: Wild World
       2: Oh Very Young
@@ -647,8 +647,8 @@
       8: When The Ship Comes In
       9: The Lonesome Death Of Hattie Carroll
       10: Restless Farewell
-- artist: Piunk Floyd
-  album_name: A moemntary lapse of reason
+- artist: Pink Floyd
+  album_name: A momentary lapse of reason
   tracks:
       1: Signs Of Life
       2: Learning To Fly
@@ -675,7 +675,8 @@
       9: Never Say Goodbye
       10: Wild In The Streets
 - artist: 10cc
-  album_name: Greatest hits 1972-1978
+  image: 10cc-gh.jpg
+  album_name: Greatest Hits 1972-1978
   tracks:
       1: Rubber Bullets
       2: Donna
@@ -731,7 +732,7 @@
       9: Ziggy Stardust
       10: Suffragette City
       11: "Rock 'N' Roll Suicide"
-- artist: The Jimi Hendriz experience
+- artist: The Jimi Hendrix experience
   album_name: Are you experienced?
   tracks:
       1: Foxy Lady	
@@ -886,7 +887,7 @@
       20: One	
       21: Hurt
 - artist: Elton John
-  album_name: Greatest hits
+  album_name: Greatest Hits
   tracks:
       1: Your Song
       2: Daniel

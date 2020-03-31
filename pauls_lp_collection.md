@@ -34,13 +34,22 @@ and click the + symbol to view the track listing for each album.
 {% assign sortedLPs = site.data.lp_collection | sort: 'artist' %}
 {% for record in sortedLPs %}
     <tr class="">
-        <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting" data-original-title="Show tracks for: {{ record.artist }} - {{ record.album_name}} " data-toggle="tooltip">+<span class="tracks">{% if record.tracks != null %}
+        <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting" data-original-title="Show tracks for: {{ record.artist }} - {{ record.album_name}} " data-toggle="tooltip">+<div class="tracks">{% if record.tracks != null %}
+        <div class="row">
+            <div class="col-md-6 text-md-right">
+                {% if record.image != null %}
+                <img src="{{ site.url }}/assets/images/albums/{{ record.image }}" alt="{ record.artist }} - {{ record.album_name}}" class="shadow-lg rounded" />
+                {% endif %}
+            </div>
+            <div class="col-md-6">
         {% for track in record.tracks %}
         {{ track[0] }}. {{ track[1] }} <br />
         {% endfor %}
+            </div>
+        </div>
         {% else %}
         No track listings
-        {% endif %}</span></a></td>
+        {% endif %}</div></a></td>
         <td class="sorting_1">{{ record.artist }}</td>
         <td class="">{{ record.album_name }}</td>
     </tr>
