@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Vinyls
+  link: /pauls_lp_collection.html
 - name: Videos
   subcategories:
       - subtitle: General Videos
