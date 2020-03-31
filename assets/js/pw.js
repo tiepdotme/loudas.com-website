@@ -62,8 +62,12 @@ $(document).ready(function(){
         "order": [[ 1, "asc" ]],
         "oLanguage": {
             "sSearch": "Search Albums:",
-            "sLengthMenu": "Display _MENU_ Albums"
+            "sLengthMenu": "Display _MENU_ Albums",
+            "sInfo": "Showing _START_ to _END_ of _TOTAL_ Albums"
         }
+    });
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
     });
 });
 

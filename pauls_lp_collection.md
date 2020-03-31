@@ -12,6 +12,9 @@ description: Collection of vinyl / records
 <h1>{{ page.title }}</h1>
 <p>
 This is a list of Vinyls / Records / LPs I have. I'll try to keep it updated. ðŸ¤£<br />
+The collection, by default, is sorted by Artist, alphabetically. You can click on the column headers to change the sorting. <br />
+and click the + symbol to view the track listing for each album.
+<!-- track listing's received from https://www.discogs.com/ -->
 </p>
  </div>
 </div>
@@ -31,7 +34,7 @@ This is a list of Vinyls / Records / LPs I have. I'll try to keep it updated. ðŸ
 {% assign sortedLPs = site.data.lp_collection | sort: 'artist' %}
 {% for record in sortedLPs %}
     <tr class="">
-        <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting">+<span class="tracks">{% if record.tracks != null %}
+        <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting" data-original-title="Show tracks for: {{ record.artist }} - {{ record.album_name}} " data-toggle="tooltip">+<span class="tracks">{% if record.tracks != null %}
         {% for track in record.tracks %}
         {{ track[0] }}. {{ track[1] }} <br />
         {% endfor %}

@@ -465,3 +465,467 @@
       9: Dirty Dog
       10: If I Could Only Flag Her Down
       11: Bad Girl
+- artist: Queen
+  album_name: Greatest Hits
+  tracks:
+      1: Another One Bites The Dust
+      2: Bohemian Rhapsody
+      3: Crazy Little Thing Called Love
+      4: Killer Queen
+      5: Fat Bottomed Girls
+      6: Bicycle Race
+      7: And David Bowie - Under Pressure
+      8: We Will Rock You
+      9: We Are The Champions
+      10: Flash
+      11: Somebody To Love
+      12: You're My Best Friend
+      13: Keep Yourself Alive
+      14: Play The Game
+- artist: Madness
+  album_name: Complete Madness
+  tracks:
+      1: Embarrassment
+      2: Shut Up
+      3: My Girl
+      4: Baggy Trousers
+      5: It Must Be Love
+      6: The Prince
+      7: Bed And Breakfast Man
+      8: Night Boat To Cairo
+      9: House Of Fun
+      10: One Step Beyond
+      11: Cardiac Arrest
+      12: Grey Day
+      13: Take It Or Leave It
+      14: In The City
+      15: Madness
+      16: The Return Of The Los Palmas 7
+- artist: Icehouse
+  album_name: Primitive man
+  tracks:
+      1: Uniform
+      2: Street Cafe
+      3: Hey Little Girl
+      4: Glam
+      5: Great Southern Land
+      6: Trojan Blue
+      7: Love In Motion
+      8: Mysterious Thing
+      9: One By One
+      10: Goodnight, Mr. Matthews
+- artist: Dire Straits
+  album_name: Love over gold
+  tracks:
+      1: Telegraph Road
+      2: Private Investigations
+      3: Industrial Disease
+      4: Love Over Gold
+      5: It Never Rains
+- artist: Split Enz
+  album_name: History never repeats
+  tracks:
+      1: Give It A Whirl
+      2: My Mistake
+      3: I See Red
+      4: Late Last Night
+      5: I Got You
+      6: Shark Attack
+      7: Poor Boy
+      8: I Hope I Never
+      9: History Never Repeats
+      10: One Step Ahead
+      11: Dirty Creature
+      12: Pioneer
+      13: Six Months In A Leaky Boat
+      14: Strait Old Line
+      15: Message To My Girl
+      16: Charlie
+- artist: Cyndi Lauper
+  album_name: She's so unusual
+  tracks:
+      1: Money Changes Everything
+      2: Girls Just Want To Have Fun
+      3: When You Were Mine
+      4: Time After Time
+      5: She Bop
+      6: All Through The Night
+      7: Witness
+      8: I'll Kiss You
+      9: He's So Unusual
+      10: Yeah Yeah
+- artist: Enya
+  album_name: Watermark
+  tracks:
+      1: Watermark
+      2: Cursum Perficio
+      3: On Your Shore
+      4: Storms In Africa
+      5: Exile
+      6: Miss Clare Remembers
+      7: Orinoco Flow (Sail Away)
+      8: Evening Falls...
+      9: River
+      10: The Longships
+      11: Na Laetha Geal M'Oige
+- artist: AC/DC
+  album_name: Highway to hell
+  tracks:
+      1: Highway To Hell
+      2: Girls Got Rhythm
+      3: Walk All Over You
+      4: Touch Too Much
+      5: Beating Around The Bush
+      6: Shot Down In Flames
+      7: Get It Hot
+      8: If You Want Blood (You've Got It)
+      9: Love Hungry Man
+      10: Night Prowler
+- artist: Cat Stevens
+  album_name: Greatest hits
+  tracks:
+      1: Wild World
+      2: Oh Very Young
+      3: Can't Keep It In
+      4: Hard Headed Woman
+      5: Moonshadow
+      6: Two Fine People
+      7: Peace Train
+      8: Ready
+      9: Father & Son
+      10: Sitting
+      11: Morning Has Broken
+      12: Another Saturday Night
+- artist: Metallica
+  album_name: ...And justice for all
+  tracks:
+      1: Blackened
+      2: ...And Justice For All
+      3: Eye Of The Beholder
+      4: One
+      5: The Shortest Straw
+      6: Harvester Of Sorrow
+      7: The Frayed Ends Of Sanity
+      8: To Live Is To Die
+      9: Dyers Eve
+- artist: Nirvana
+  album_name: Nevermind
+  tracks:
+      1: Smells Like Teen Spirit
+      2: In Bloom
+      3: Come As You Are
+      4: Breed
+      5: Lithium
+      6: Polly
+      7: Territorial Pissings
+      8: Drain You
+      9: Lounge Act
+      10: Stay Away
+      11: On A Plain
+      12: Something In The Way
+- artist: Iron Maiden
+  album_name: Seventh son of a seventh son
+  tracks:
+      1: Moonchild
+      2: Infinite Dreams
+      3: Can I Play With Madness
+      4: The Evil That Men Do
+      5: Seventh Son Of A Seventh Son
+      6: The Prophecy
+      7: The Clairvoyant
+      8: Only The Good Die Young
+- artist: Bob Dylan
+  album_name: The times they are a-changin'
+  tracks:
+      1: The Times They Are A-Changin'
+      2: Ballad Of Hollis Brown
+      3: With God On Our Side
+      4: One Too Many Mornings
+      5: North Country Blues
+      6: Only A Pawn In Their Game
+      7: Boots Of Spanish Leather
+      8: When The Ship Comes In
+      9: The Lonesome Death Of Hattie Carroll
+      10: Restless Farewell
+- artist: Piunk Floyd
+  album_name: A moemntary lapse of reason
+  tracks:
+      1: Signs Of Life
+      2: Learning To Fly
+      3: The Dogs Of War
+      4: One Slip
+      5: On The Turning Away
+      6: Yet Another Movie
+      7: Round And Around
+      8: A New Machine (Part 1)
+      9: Terminal Frost
+      10: A New Machine (Part 2)
+      11: Sorrow
+- artist: Bon Jovi
+  album_name: Slippery When Wet
+  tracks:
+      1: Let It Rock
+      2: You Give Love A Bad Name
+      3: Livin' On A Prayer
+      4: Social Disease
+      5: Wanted Dead Or Alive
+      6: Raise Your Hands
+      7: Without Love
+      8: I'd Die For You
+      9: Never Say Goodbye
+      10: Wild In The Streets
+- artist: 10cc
+  album_name: Greatest hits 1972-1978
+  tracks:
+      1: Rubber Bullets
+      2: Donna
+      3: Silly Love
+      4: The Dean And I
+      5: Life Is A Minestrone
+      6: The Wall Street Shuffle
+      7: Art For Arts Sake
+      8: I'm Mandy Fly Me
+      9: Good Morning Judge
+      10: The Things We Do For Love
+      11: Dreadlock Holiday
+      12: I'm Not In Love
+- artist: Iron Maiden
+  album_name: The number of the beast
+  tracks:
+      1: Invaders
+      2: Children Of The Damned
+      3: The Prisoner
+      4: "22, Acacia Avenue"
+      5: The Number Of The Beast
+      6: Run To The Hills
+      7: Gangland
+      8: Hallowed Be Thy Name
+- artist: Dire Straits & Mark Knopfler
+  album_name: Private investigations
+  tracks:
+      1: Dire Straits - Sultans Of Swing
+      2: Dire Straits - Love Over Gold
+      3: Dire Straits - Romeo & Juliet
+      4: Dire Straits - Tunnel Of Love
+      5: Dire Straits - Private Investigations
+      6: Dire Straits - Money For Nothing
+      7: Dire Straits - Brothers In Arms
+      8: Dire Straits - Walk Of Life
+      9: Dire Straits - On Every Street
+      10: Mark Knopfler - Boom, Like That
+      11: Mark Knopfler - Going Home (Theme From The Local Hero)
+      12: Mark Knopfler - Why Aye Man
+      13: Mark Knopfler - What It Is
+      14: Mark Knopfler & Emmylou Harris - All The Roadrunning
+- artist: David Bowie
+  album_name: The rise and fall of Ziggy Stardust and the spiders from Mars
+  tracks:
+      1: Five Years
+      2: Soul Love
+      3: Moonage Daydream
+      4: Starman
+      5: It Ain't Easy
+      6: Lady Stardust
+      7: Star
+      8: Hang On To Yourself
+      9: Ziggy Stardust
+      10: Suffragette City
+      11: "Rock 'N' Roll Suicide"
+- artist: The Jimi Hendriz experience
+  album_name: Are you experienced?
+  tracks:
+      1: Foxy Lady	
+      2: Manic Depression	
+      3: Red House	
+      4: Can You See Me	
+      5: Love Or Confusion	
+      6: I Don't Live Today	
+      7: May This Be Love	
+      8: Fire	
+      9: 3rd Stone From The Sun
+      10: Remember	
+      11: Are You Experienced
+- artist: Stevie Ray Vaughan and Double Trouble
+  album_name: The Essential
+  tracks:
+      1: Love Struck Baby	
+      2: Pride And Joy	
+      3: Texas Flood	
+      4: Lenny	
+      5: Cold Shot	
+      6: Couldn't Stand The Weather	
+      7: The Things (That) I Used To Do	
+      8: Tin Pan Alley (The Roughest Place In Town)	
+      9: Say What!	
+      10: Look At Little Sister	
+      11: Change It	
+      12: Little Wing	
+      13: The House Is Rockin'	
+      14: Crossfire	
+      15: Tightrope	
+      16: Long Way From Home (The Vaughan Brothers)	
+      17: Life By The Drop
+- artist: Pink Floyd
+  album_name: A collection of great dance songs
+  tracks:
+      1: One Of These Days
+      2: Money
+      3: Sheep
+      4: Shine On You Crazy Diamond
+      5: Wish You Were Here
+      6: Another Brick In The Wall (Part 2)
+- artist: The Beatles
+  album_name: Sgt Peppers lonely hearts club band
+  tracks:
+      1: Sgt. Peppers Lonely Hearts Club Band
+      2: With A Little Help From My Friends
+      3: Lucy In The Sky With Diamonds
+      4: Getting Better
+      5: Fixing A Hole
+      6: She's Leaving Home
+      7: Being For The Benefit Of Mr. Kite
+      8: Within You Without You
+      9: When I'm Sixty-Four
+      10: Lovely Rita
+      11: Good Morning Good Morning
+      12: Sgt. Pepper's Lonely Hearts Club Band (Reprise)
+      13: A Day In The Life
+- artist: Pink Floyd
+  album_name: The wall
+  tracks:
+      1: In The Flesh?
+      2: The Thin Ice
+      3: Another Brick In The Wall Part 1
+      4: The Happiest Days Of Our Lives
+      5: Another Brick In The Wall Part 2
+      6: Mother
+      7: Goodbye Blue Sky
+      8: Empty Spaces
+      9: Young Lust
+      10: One Of My Turns
+      11: Don't Leave Me Now
+      12: Another Brick In The Wall Part 3
+      13: Goodbye Cruel World
+      14: Hey You
+      15: Is There Anybody Out There?
+      16: Nobody Home
+      17: Vera
+      18: Bring The Boys Back Home
+      19: Comfortably Numb
+      20: The Show Must Go On
+      21: In The Flesh
+      22: Run Like Hell
+      23: Waiting For The Worms
+      24: Stop
+      25: The Trial
+      26: Outside The Wall
+- artist: The Beatles
+  album_name: A hard day's night
+  tracks:
+      1: A Hard Day's Night	
+      2: I Should Have Known Better	
+      3: If I Fell	
+      4: I'm Happy Just To Dance With You	
+      5: And I Love Her	
+      6: Tell Me Why	
+      7: Can't Buy Me Love	
+      8: Any Time At All	
+      9: I'll Cry Instead	
+      10: Things We Said Today	
+      11: When I Get Home	
+      12: You Can't Do That	
+      13: I'll Be Back
+- artist: Pink Floyd
+  album_name: Dark side of the moon
+  tracks:
+      1: Speak To Me
+      2: Breathe
+      3: On The Run
+      4: Time
+      5: The Great Gig In The Sky
+      6: Money
+      7: Us And Them
+      8: Any Colour You Like
+      9: Brain Damage
+      10: Eclipse
+- artist: Nigger with atitude N.W.A (NWA)
+  album_name: Straight outta compton
+  tracks:
+      1: Straight Outta Compton	
+      2: _ _ _ _ Tha Police (Fill In The Blanks)
+      3: Gangsta Gangsta	
+      4: If It Ain't Ruff	
+      5: Parental Discretion Iz Advised	
+      6: Express Yourself	
+      7: Compton's N The House (Remix)	
+      8: I Ain't Tha 1	
+      9: Dopeman (Remix)	
+      10: Quiet On Tha Set
+- artist: Johnny Cash
+  album_name: The legend of Cash
+  tracks:
+      1: Ring Of Fire	
+      2: I Walk The Line	
+      3: Jackson	
+      4: Folsom Prison Blues	
+      5: A Boy Named Sue (Live)	
+      6: Big River	
+      7: Get Rhythm	
+      8: Cry! Cry! Cry!	
+      9: Hey Porter	
+      10: A Thing Called Love	
+      11: Guess Things Happen That Way	
+      12: San Quentin (Live)	
+      13: Man In Black	
+      14: Highwayman	
+      15: Johnny Cash	The Wanderer	
+      16: I've Been Everywhere	
+      17: Rusty Cage	
+      18: Personal Jesus	
+      19: Give My Love To Rose	
+      20: One	
+      21: Hurt
+- artist: Elton John
+  album_name: Greatest hits
+  tracks:
+      1: Your Song
+      2: Daniel
+      3: Honky Cat
+      4: Goodbye Yellow Brick Road
+      5: Saturday Night's Alright For Fighting
+      6: Rocket Man
+      7: Candle In The Wind
+      8: Don't Let The Sun Go Down On Me
+      9: Border Song
+      10: Crocodile Rock
+- artist: The Beatles
+  album_name: Abbey road
+  tracks:
+      1: Come Together
+      2: Something
+      3: Maxwell's Silver Hammer
+      4: Oh! Darling
+      5: Octopus's Garden
+      6: I Want You (She's So Heavy)
+      7: Here Comes The Sun
+      8: Because
+      9: You Never Give Me Your Money
+      10: Sun King
+      11: Mean Mr. Mustard
+      12: Polythene Pam
+      13: She Came In Through The Bathroom Window
+      14: Golden Slumbers
+      15: Carry That Weight
+      16: The End
+      17: Her Majesty
+- artist: Neil Daimond
+  album_name: Serenade
+  tracks:
+      1: I've Been This Way Before
+      2: Rosemary's Wine
+      3: Lady Magdelene
+      4: The Last Picasso
+      5: Longfellow Serenade
+      6: Yes I Will
+      7: Reggae Strut
+      8: The Gift Of Song
