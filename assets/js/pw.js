@@ -67,10 +67,20 @@ $(document).ready(function(){
         },
         "drawCallback": function( settings ) {
             $('[data-toggle="tooltip"]').tooltip();
+            $("table#lp_collection tr").hover(function () {
+                $(this).find("td.album_name").removeClass('album_bg_gs').addClass('album_bg_nogs');
+            }, function () {
+                $(this).find("td.album_name").removeClass('album_bg_nogs').addClass('album_bg_gs');
+            });
         }
     });
     $(function () {
         $('[data-toggle="tooltip"]').tooltip();
+    });
+    $("table#lp_collection tr").hover(function () {
+	    $(this).find("td.album_name").removeClass('album_bg_gs').addClass('album_bg_nogs');
+    }, function () {
+	    $(this).find("td.album_name").removeClass('album_bg_nogs').addClass('album_bg_gs');
     });
 });
 

@@ -36,9 +36,9 @@ and click the + symbol to view the track listing for each album.
     <tr class="">
         <td class="details-control"><a href="javascript:;" class="show_tracks" rel="tracklisting" data-original-title="Show tracks for: {{ record.artist }} - {{ record.album_name}} " data-toggle="tooltip">+<div class="tracks">{% if record.tracks != null %}
         <div class="row">
-            <div class="col-md-6 text-md-right">
+            <div class="col-md-6 trext-sm-center text-md-right pb-5">
                 {% if record.image != null %}
-                <img src="{{ site.url }}/assets/images/albums/{{ record.image }}" alt="{ record.artist }} - {{ record.album_name}}" class="shadow-lg rounded" />
+                <img src="{{ site.url }}/assets/images/albums/{{ record.image }}" alt="{ record.artist }} - {{ record.album_name}}" class="shadow-lg rounded"  style="transform:rotate(5deg)" />
                 {% endif %}
             </div>
             <div class="col-md-6">
@@ -51,7 +51,7 @@ and click the + symbol to view the track listing for each album.
         No track listings
         {% endif %}</div></a></td>
         <td class="sorting_1">{{ record.artist }}</td>
-        <td class="">{{ record.album_name }}</td>
+        <td class="album_name album_bg_gs font-weight-bold {% if record.image != null %}text-white{% endif %}"{% if record.image != null %} style="background:url({{ site.url }}/assets/images/albums/{{ record.image }}) no-repeat center center / cover; text-shadow: 2px 2px red;"{% endif %}>{{ record.album_name }}</td>
     </tr>
 {% endfor %}
 </table>
