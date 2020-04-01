@@ -1,10 +1,10 @@
 ---
 layout: page
-title: My collection of LP's / records
+title: My collection of LP's / Records
 image: records1.jpg
 comments: false
 author: paul
-description: Collection of vinyl / records
+description: Collection of vinyl / records / lps .. my music
 ---
 <div class="row w-100 rounded border bg-white d-print-none">
  <a href="javascript:;" data-image="{{ site.url }}{{ site.thumbnails }}{{ page.image }}" rel="lightbox" class="col-md-3 featuredImage m-0 p-0" style="background: url('{{ site.url }}{{ site.thumbnails }}{{ page.image }}') no-repeat center top / cover" >{{ page.image }}<img class="d-none d-print-block" src="{{ site.url }}{{ site.thumbnails }}{{ page.image }}" alt="{{ page.image }}" title="{{ page.image }}" /></a>
@@ -12,8 +12,8 @@ description: Collection of vinyl / records
 <h1>{{ page.title }}</h1>
 <p>
 This is a list of Vinyls / Records / LPs I have. I'll try to keep it updated. 🤣<br />
-The collection, by default, is sorted by Artist, alphabetically. You can click on the column headers to change the sorting. <br />
-and click the + symbol to view the track listing for each album.
+The collection, by default, is sorted by artist, alphabetically. You can click on the column headers to change the sorting. <br />
+Click to view the track listing for each album.
 <!-- track listing's received from https://www.discogs.com/ -->
 </p>
  </div>
