@@ -22,7 +22,7 @@ Click to view the track listing for each album.
 
 <div class="row bg-white rounded w-100 p-3 shadow-sm border">
     <div class="col-md-12">
-<table id="lp_collection" class="display" style="width:100%">
+<table id="lp_collection" class="display responsive w-100">
 <thead>
     <tr>
         <th>Tracks</th>
