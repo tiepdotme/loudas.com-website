@@ -1,4 +1,14 @@
 <?php
+/*
+ * Variables:
+ *   start: date in the form of YYYY-MM-DD (default 2020-03-17)
+ *   name: plain text i.e. Paul (default Paul)
+ *   display: days or weeks (default days)
+ *
+ * Usage: covid.php?start=2020-03-23&name=Paul&display=days
+ *
+ */
+
 header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
