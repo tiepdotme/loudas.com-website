@@ -1115,3 +1115,176 @@
       9: Ma-Ma-Ma Belle
       10: Strange Magic
       11: Mr. Blue Sky
+- artist: 50cent
+  album_name: Best of
+  image: 50cent-best.jpg
+  tracks:
+      1: In Da Club
+      2: 21 Questions
+      3: P.I.M.P.
+      4: Disco Inferno
+      5: Candy Shop
+      6: Just A Lil Bit
+      7: Outta Control (Remix)
+      8: Hustler's Ambition
+      9: Best Friend (Remix)
+      10: Window Shopper
+      11: Ayo Technology
+      12: I Get Money
+      13: Straight To The Bank
+      14: I'll Still Kill
+      15: Get Up
+      16: I Get It In
+      17: Baby By Me
+      18: How To Rob
+- artist: Foo Fighters
+  album_name: Greatest Hits
+  image: foo-gh.jpg
+  tracks:
+      1: All My Life
+      2: Best Of You
+      3: Everlong
+      4: The Pretender
+      5: My Hero
+      6: Learn To Fly
+      7: Times Like These
+      8: Monkey Wrench
+      9: Big Me
+      10: Breakout
+      11: Long Road To Ruin
+      12: This Is A Call
+      13: Skin And Bones
+      14: Wheels
+      15: Word Forward
+      16: Everlong (Acoustic)
+- artist: Ed Sheeran
+  album_name: Multyply (X)
+  image: ed-x.jpg
+  tracks:
+      1: One
+      2: I'm A Mess
+      3: Sing
+      4: Don't
+      5: Nina
+      6: Photograph
+      7: Bloodstream
+      8: Tenerife Sea
+      9: Runaway
+      10: The Man
+      11: Thinking Out Loud
+      12: Afire Love
+- artist: AC/DC
+  album_name: Dirty Deeds, done dirt cheap
+  image: acdc-dirtydeeds.jpg
+  tracks:
+      1: Dirty Deeds Done Dirt Cheap
+      2: Love At First Feel
+      3: Big Balls
+      4: Rocker
+      5: Problem Child
+      6: There's Gonna Be Some Rockin'
+      7: Ain't No Fun (Waiting Round To Be A Millionaire)
+      8: Ride On
+      9: Squealer
+- artist: Traveling Wilburys
+  album_name: Vol. 1
+  image: tw-vol1.jpg
+  tracks:
+      1: Handle With Care
+      2: Dirty World
+      3: Rattled
+      4: Last Night
+      5: Not Alone Any More
+      6: Congratulations
+      7: Heading For The Light
+      8: Margarita
+      9: Tweeter And The Monkey Man
+      10: End Of The Line
+- artist: Kiss
+  album_name: Kissworld
+  image: kiss-kw.jpg
+  tracks:
+      1: Crazy Crazy Nights
+      2: Rock And Roll All Nite
+      3: I Was Made For Lovin' You
+      4: "God Gave Rock 'N' Roll To You II"
+      5: Detroit Rock City
+      6: Beth
+      7: Lick It Up
+      8: Heaven's On Fire
+      9: Tears Are Falling
+      10: Unholy
+      11: Hard Luck Woman
+      12: Psycho Circus
+      13: Shout It Out Loud
+      14: Calling Dr. Love
+      15: Christine Sixteen
+      16: Love Gun
+      17: Shandi
+      18: I´m A Legend Tonight
+      19: Modern Day Delilah
+      20: Hell Or Hallelujah
+- artist: Silverchair
+  album_name: Frogstomp
+  image: silverchair-frogstomp.jpg
+  tracks:
+      1: Israel's Son
+      2: Tomorrow
+      3: Faultline
+      4: Pure Massacre
+      5: Shade
+      6: Blind
+      7: Leave Me Out
+      8: Suicidal Dream
+      9: Madman
+      10: Undecided
+      11: Cicada
+      12: Findaway
+- artist: Eminem
+  album_name: Curtain Call
+  image: eminem-curtaincall.jpg
+  tracks:
+      1: Intro
+      2: Fack
+      3: The Way I Am
+      4: My Name Is
+      5: Stan
+      6: Lose Yourself
+      7: Shake That
+      8: Sing For The Moment
+      9: Without Me
+      10: Like Toy Soldiers
+      11: The Real Slim Shady
+      12: Mockingbird
+      13: Guilty Conscience
+      14: Cleaning' Out My Closet
+      15: Just Lose It
+      16: When I'm Gone
+      17: Stan (Live)
+- artist: Led Zeppelin
+  album_name: iv (four)
+  image: lz-iv.jpg
+  tracks:
+      1: Black Dog
+      2: Rock And Roll
+      3: The Battle Of Evermore
+      4: Stairway To Heaven
+      5: Misty Mountain Hop
+      6: Four Sticks
+      7: Going To California
+      8: When The Levee Breaks
+- artist: Pearl Jam
+  album_name: Ten
+  image: pj-ten.jpg
+  tracks:
+      1: Once
+      2: Even Flow
+      3: Alive
+      4: Why Go
+      5: Black
+      6: Jeremy
+      7: Oceans
+      8: Porch
+      9: Garden
+      10: Deep
+      11: Release
