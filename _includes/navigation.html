@@ -15,15 +15,15 @@
               <a class="nav-link  p-1 rounded" href="#!">{{ item.name }} &raquo;</a>
               <ul class="navbar-nav submenu"{% for subcat in item.subcategories %}{% if page.url == subcat.subhref %} style="pointer-events: auto"{% endif %}{% endfor %}>
               {% for subcategory in item.subcategories %}
-              <li class="nav-item nav-item-fill {% if page.url == subcategory.subhref %} active{% endif %}"><a class="nav-link p-1 rounded {% if page.url == subcategory.subhref %} active{% endif %}" href="{{ subcategory.subhref }}" title="{{ item.name }}">{{ subcategory.subtitle }}</a></li>
+              <li class="nav-item nav-item-fill {% if page.url == subcategory.subhref %} active{% endif %}"><a class="nav-link p-1 rounded {% if page.url == subcategory.subhref %} active{% endif %}" href="{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
               {% endfor %}
               </ul>
           </li>
            {% else %}
              {% if item.link == "/" and page.url == "/index.html" %}
-                <li class="nav-item nav-item-fill active"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}">{{ item.name }}</a></li>
+                <li class="nav-item nav-item-fill active"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ item.name }}">{{ item.name }}</a></li>
              {% else %}
-                <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}">{{ item.name }}</a></li>
+                <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a title="{{ item.name }}" class="nav-link p-1 rounded" href="{{ item.link }}" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ item.name }}">{{ item.name }}</a></li>
              {% endif %}
            {% endif %}
           {% endfor %}
