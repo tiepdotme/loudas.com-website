@@ -16,12 +16,12 @@ pagination:
 
     <article class="postSnippet rounded border mb-3" itemscope itemtype="http://schema.org/Article">
               <div class="row w-100 m-0 p-0">
-                <a href="{{site.url}}{{post.url}}" style="background: url('{{ site.url }}{{ site.thumbnails }}{{post.image}}') no-repeat center top / cover;" class="col-md-3 featuredImage m-0 p-0">{{post.title}}</a>
+                <a href="{{site.url}}{{post.url}}" data-toggle="tooltip" data-original-title="{{post.title}}" data-placement="right" style="background: url('{{ site.url }}{{ site.thumbnails }}{{post.image}}') no-repeat center top / cover;" class="col-md-3 featuredImage m-0 p-0">{{post.title}}</a>
                 <div class="bg-white col-md-9 p-3">
                   <div class="row">
                     <div class="col-md-12 bg-white">
                       <!-- post meta -->
-                      <h2 class="entry-title"><a itemprop="url mainEntityOfPage" href="{{site.url}}{{post.url}}"><span itemprop="headline">{{post.title}}</span></a></h2>
+                      <h2 class="entry-title"><a itemprop="url mainEntityOfPage" href="{{site.url}}{{post.url}}" data-toggle="tooltip" data-original-title="{{post.title}}" data-placement="bottom"><span itemprop="headline">{{post.title}}</span></a></h2>
                       <div class="post-meta"><span>by </span>
                       <div class="d-inline author vcard" itemprop="author">
                           {% if author %}<a href="{{ site.url }}{{ author.url }}" title="Posts by {{ author.name }}" rel="author">
@@ -37,7 +37,7 @@ pagination:
                     </div>
                     <div class="col-md-12 bg-white">
                       <!-- post excerpt -->
-                      <div class="post-excerpt p-2" itemprop="articleBody">{{ post.excerpt }} ... <a href="{{site.url}}{{post.url}}">read more &raquo;</a></div>
+                      <div class="post-excerpt p-2" itemprop="articleBody">{{ post.excerpt }} ... <a data-toggle="tooltip" data-original-title="{{post.title}}" href="{{site.url}}{{post.url}}">read more &raquo;</a></div>
                       <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject" class="hidden"><link class="hidden" itemprop="url" href="{{ site.url }}{{ site.thumbnails }}{{post.image}}" /></div>
                     </div>
                   </div>
