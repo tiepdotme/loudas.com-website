@@ -58,7 +58,8 @@ One idea (because I love gadgets and tech) is to install some [wifi smart bulb](
 Here's a video for you video watching pleasure !! (My Arowana, that died yesterday is in this video 🥺 )
 {% include youtube.html id="daHPVfcAAtQ" %}
 
-And here's one in October 2019 just before I had to sell it because I left Helen (and therefore the house)  
+## Monster Tank video Update
+And here's a video in October 2019 just before I had to sell it because I left Helen (and therefore the house / Den)  
 {% include youtube.html id="We48QqI8l9U" %}
 
 ## Picture Gallery
