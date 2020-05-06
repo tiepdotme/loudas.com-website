@@ -23,7 +23,7 @@
   </div>
   <footer class="blockquote-footer p-0 m-0">
       {% if include.date %}
-        {% if include.index %}<a href="#comment{{ include.index }}" itemprop="url">{% endif %}
+        {% if include.index %}<a data-toggle="tooltip" data-original-title="Link directly to this comment" data-placement="bottom" href="#comment{{ include.index }}" itemprop="url">{% endif %}
         <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
         {% if include.index %}</a>{% endif %}
       {% endif %}
