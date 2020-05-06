@@ -52,13 +52,13 @@ pagination:
         <ul class="pagination  justify-content-center pagination-md">
         {% if paginator.previous_page %}
             <li class="page-item">
-                <a class="page-link bg-white" href="{{ site.url }}{{ paginator.previous_page_path }}">Previous</a>
+                <a class="page-link bg-white" href="{{ site.url }}{{ paginator.previous_page_path }}" data-toggle="tooltip" data-placement="bottom" data-original-title="Previous page">Previous</a>
             </li>
         {% endif %}
         {% if paginator.page_trail %}
             {% for trail in paginator.page_trail %}
             <li class="page-item">
-                <a class="page-link {% if trail.num == paginator.page %} active text-white{% else %} bg-white{% endif %}" href="{{ site.url }}{{ trail.path }}">{{ trail.num }}</a>
+                <a class="page-link {% if trail.num == paginator.page %} active text-white{% else %} bg-white{% endif %}" href="{{ site.url }}{{ trail.path }}" data-toggle="tooltip" data-placement="bottom" data-original-title="Got to page {{ trail.num }}">{{ trail.num }}</a>
             </li>
             {% endfor %}
         {% endif %}
@@ -67,7 +67,7 @@ pagination:
             </li>
         {% if paginator.next_page %}
             <li class="page-item">
-                <a class="page-link bg-white" href="{{ site.url }}{{ paginator.next_page_path }}">Next</a>
+                <a class="page-link bg-white" href="{{ site.url }}{{ paginator.next_page_path }}" data-toggle="tooltip" data-placement="bottom" data-original-title="Next page">Next</a>
             </li>
         {% endif %}
         </ul>

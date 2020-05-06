@@ -17,7 +17,7 @@ author: paul
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
     <div class="list-group w-100">
-      <a class="list-group-item list-group-item-action w-100" href="{{ site.url }}{{ post.url }}">{{post.title}}</a>
+      <a data-toggle="tooltip" data-placement="bottom" data-original-title="Read post: {{post.title}}" class="list-group-item list-group-item-action w-100" href="{{ site.url }}{{ post.url }}">{{post.title}}</a>
     </div>
     {% endfor %}
   </div>

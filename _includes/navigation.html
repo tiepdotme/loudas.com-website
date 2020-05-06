@@ -12,7 +12,7 @@
           {% for item in site.data.navigation %}
            {% if item.subcategories != null %}
            <li class="nav-item dropdown {% for subcat in item.subcategories %}{% if page.url == subcat.subhref %}active{% endif %}{% endfor %}">
-              <a class="nav-link  p-1 rounded" href="#!">{{ item.name }} &raquo;</a>
+              <a class="nav-link  p-1 rounded" href="#!" >{{ item.name }} &raquo;</a>
               <ul class="navbar-nav submenu"{% for subcat in item.subcategories %}{% if page.url == subcat.subhref %} style="pointer-events: auto"{% endif %}{% endfor %}>
               {% for subcategory in item.subcategories %}
               <li class="nav-item nav-item-fill {% if page.url == subcategory.subhref %} active{% endif %}"><a class="nav-link p-1 rounded {% if page.url == subcategory.subhref %} active{% endif %}" href="{{ subcategory.subhref }}" title="{{ subcategory.subtitle }}" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ subcategory.subtitle }}">{{ subcategory.subtitle }}</a></li>
@@ -32,7 +32,7 @@
               <ul class="navbar-nav submenu" {% if page.url == "/categories/" %} style="pointer-events: auto"{% endif %}>
                   {% for category in site.categories %}
                   {% capture category_name %}{{ category | first }}{% endcapture %}
-                  <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a href="{{ site.url }}/categories/#{{ category_name | slugize }}" class="nav-link p-1 rounded">{{ category_name | slugsize }}</a></li>
+                  <li class="nav-item nav-item-fill {% if page.url == item.link %} active{% endif %}"><a data-toggle="tooltip" data-placement="bottom" data-original-title="Show posts in category - {{ category_name | slugize }}"  href="{{ site.url }}/categories/#{{ category_name | slugize }}" class="nav-link p-1 rounded">{{ category_name | slugsize }}</a></li>
                   {% endfor %}
               </ul>
           </li>

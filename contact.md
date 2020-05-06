@@ -15,7 +15,7 @@ slug: Contact-form.html
 ## About Paul
 Here’s a wee bit about me.
 
-Firstly about the name TerminalAddict. Many moons ago I was in a chat room (#musb on freednode) chatting with a bloke called DragonMage. DragonMage is a member of [Mandrivausers.org](http://mandrivausers.org){: target="_blank"}
+Firstly about the name TerminalAddict. Many moons ago I was in a chat room (#musb on freednode) chatting with a bloke called DragonMage. DragonMage is a member of [Mandrivausers.org](http://mandrivausers.org){: target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Mandriva Users"}
 
 Well I was helping some people with Mandrake (or some other distro, I can’t remember) and all my help was telling them to open a command line interface (CLI) which is also called a terminal, so soon enough DragonMage started saying I was addicted to the terminal.
 
@@ -28,7 +28,7 @@ The name developed from there, and I thought it was very appropriate for the fol
 So I stuck with the name, also it wasn’t being used anywhere, by anyone else, which is pretty amazing in this day and age.
 
 Here's a couple of ways you can get in contact with me:  
-<abbr title="Phone">P:</abbr> <a href="tel:+6421638223">+6421638223</a><br />
-<abbr title="Email">E:</abbr> <a data-mail="paul" href="#">Send me an Email</a><br />
+<abbr title="Phone">P:</abbr> <a href="tel:+6421638223" data-toggle="tooltip" data-original-title="Phone me" data-placement="bottom">+6421638223</a><br />
+<abbr title="Email">E:</abbr> <a data-mail="paul" href="#" data-toggle="tooltip" data-original-title="Email me" data-placement="bottom">Send me an Email</a><br />
 </div>
 </div>

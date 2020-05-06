@@ -11,6 +11,6 @@ layout: page
 <div class="list-group w-100">
   {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
   {% for post in filtered_posts %}
-    <a class="list-group-item list-group-item-action w-100" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    <a data-toggle="tooltip" data-placement="bottom" data-original-title="Read post: {{ post.title }}" class="list-group-item list-group-item-action w-100" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
   {% endfor %}
 </div>
