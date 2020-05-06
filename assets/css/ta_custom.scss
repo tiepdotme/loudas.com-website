@@ -417,6 +417,7 @@ img[rel~="lightbox"] {
     color: #343434;
     font-weight: normal;
     font-family: sans-serif;
+    text-decoration: unset !important;
 }
 @media (max-width: 576px) {
     .headline { font-size: 20px !important; }
@@ -484,6 +485,7 @@ overflow-y: scroll !important;
 background-color: #f9f9f9;
 }
 .print-icon { width: 30px; }
+.single_post h3 { text-decoration: underline; }
 .single_post h2 {
     border-bottom: 1px solid #aaa;
     margin: 15px 0;
