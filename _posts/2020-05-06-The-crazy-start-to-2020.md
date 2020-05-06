@@ -24,6 +24,8 @@ I could drink 🥂
 
 {% include thumbnail.html img="socially_distant_matt.jpg" %}  
 
+{% include thumbnail.html img="georgia_matt_matt_and_me.jpg" %}  
+
 Not allowed on the boat 😭  
 And I really miss this view, would love to go out on the river again.  
 {% include thumbnail.html img="farfield_bridge.jpg" %}  
@@ -40,6 +42,9 @@ Lemon Cake
 
 {% include thumbnail.html img="carrot_cake.jpg" %}  
 Carrot Cake  
+
+{% include thumbnail.html img="soup_and_bread.jpg" %}  
+Potato and Onion Soup + Cheese Bread
 
 ## Pets
 Of course Lexi is getting a thorough walking every day 😆 🐶 🐾🐾  
