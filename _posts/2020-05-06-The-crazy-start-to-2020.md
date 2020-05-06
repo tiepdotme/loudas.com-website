@@ -95,10 +95,6 @@ So, by February 2020 I'm feeling pretty good.
 I realise I have friends that love me (I'm talking about you Matt, Neville, Warren, Paula, Sarah, Susan, Teresa, Carmen, Lyndsay, Aleks, Mark, Phillippa, Adam .. the list goes on)  
 I have family that loves me (Ash, Georgia, Matt, Karen, Tori, Lyndon, Wendy, Marion) 
 
-By the end of Feb I decide I don't want a "relationship" with Susan.  
-She's upset, but also understanding (I think?), and as always, kind ... she's KIND !  
-We're still friends 👋  
-
 #### March
 
 March, I dunno, I'm in lockdown, a bit bored, I hit Bumble, the dating app.  
