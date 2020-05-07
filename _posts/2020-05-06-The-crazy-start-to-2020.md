@@ -97,7 +97,7 @@ So, by February 2020 I'm feeling pretty good.
 * Susan Trodden and I have reconnected, that's super cool!
 * I've started a new hobby ( [I'm on a Boat Motherf*cker]({% post_url 2020-02-28-Im-on-a-Boat-Motherfucker %}) )  
 
-I realise I have friends that love me (I'm talking about you Matt, Neville, Warren, Paula, Sarah, Susan, Teresa, Carmen, Lyndsay, Aleks, Mark, Phillippa, Adam .. the list goes on)  
+I realise I have friends that love me (You lot know who you are)  
 I have family that loves me (Ash, Georgia, Matt, Karen, Tori, Lyndon, Wendy, Marion) 
 
 #### March
