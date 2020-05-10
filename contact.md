@@ -4,6 +4,9 @@ title: Get in touch with Paul
 image: ta-bearded.png
 author: paul
 slug: Contact-form.html
+facebook: https://www.facebook.com/TerminalAddict
+instagram: https://www.instagram.com/terminaladdict/
+youtube: https://www.youtube.com/channel/UCYHLJ0csNwBkfQz7uXLLcQw
 ---
 
 <div class="row rounded border bg-white">
@@ -30,5 +33,8 @@ So I stuck with the name, also it wasn’t being used anywhere, by anyone else, 
 Here's a couple of ways you can get in contact with me:  
 <abbr title="Phone">P:</abbr> <a href="tel:+6421638223" data-toggle="tooltip" data-original-title="Phone me" data-placement="bottom">+6421638223</a><br />
 <abbr title="Email">E:</abbr> <a data-mail="paul" href="#" data-toggle="tooltip" data-original-title="Email me" data-placement="bottom">Send me an Email</a><br />
+<a href="{{ page.facebook }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Facebook"><img alt="Facebook" src="{{ site.url }}/assets/images/icons/social_coloured/021-facebook.svg" class="svg48" /></a>
+&nbsp; <a href="{{ page.instagram }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Instagram"><img alt="Instagram" src="{{ site.url }}/assets/images/icons/social_coloured/025-instagram.svg" class="svg48" /></a>
+&nbsp; <a href="{{ page.youtube }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Youtube"><img alt="facebook" src="{{ site.url }}/assets/images/icons/social_coloured/011-youtube.svg" class="svg48" /></a>
 </div>
 </div>
