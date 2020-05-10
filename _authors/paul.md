@@ -4,6 +4,9 @@ name: Paul Willard
 author: paul
 position: Senior Network and Systems Manager
 pic: /assets/images/paul.jpg 
+facebook: https://www.facebook.com/TerminalAddict
+instagram: https://www.instagram.com/terminaladdict/
+youtube: https://www.youtube.com/channel/UCYHLJ0csNwBkfQz7uXLLcQw
 ---
 <div class="border bg-white rounded p-3">
 <img src="{{ site.url }}{{ page.pic }}" class="float-left rounded-circle shadow-lg m-3" alt="Paul WIllard" title="Paul Willard" />
@@ -33,4 +36,7 @@ And if you're looking at employing me, you can check out my CV / Resume at:
 Here's a couple of ways you can get in contact with me:<br />
 <abbr title="Phone">P:</abbr> <a href="tel:+6421638223" data-toggle="tooltip" data-placement="bottom" data-original-title="Phone me">+6421638223</a><br />
 <abbr title="Email">E:</abbr> <a data-mail="paul" href="#" data-toggle="tooltip" data-placement="bottom" data-original-title="Email me">Send me an Email</a><br />
+<a href="{{ page.facebook }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Facebook"><img alt="Facebook" src="{{ site.url }}/assets/images/icons/social_coloured/021-facebook.svg" class="svg48" /></a>
+&nbsp; <a href="{{ page.instagram }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Instagram"><img alt="Instagram" src="{{ site.url }}/assets/images/icons/social_coloured/025-instagram.svg" class="svg48" /></a>
+&nbsp; <a href="{{ page.youtube }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Youtube"><img alt="facebook" src="{{ site.url }}/assets/images/icons/social_coloured/011-youtube.svg" class="svg48" /></a>
 </div>
