@@ -17,17 +17,20 @@ If you're interested in how I did this, you can checkout the geeky stuff on:
 
 [Linux Streaming webcams](https://terminaladdict.com/linux/2019/03/11/linux-streaming-webcams.html){: target="_blank"}
 
-Here is the camera in action:
 
 {::comment}
-Since upgrading to Debian Buster my motion software has broken.  
+Here is the camera in action:
+
+Since upgrading my server (spyro) I physically moved the box away from the fishtank, so no webcam
 The stream _was_ located here:  
 [Fish Cam]({{ site.url}}/assets/php/webcam1.php){: target="_blank"}
-{:/comment}
 
+or in HTML:
 <div class="videoContainer">
 <img src="{{ site.url}}/assets/php/webcam1.php" alt="Fish Cam" class="shadow-lg rounded">
 </div>
+{:/comment}
+
 <br />
 <br />
 <br />
