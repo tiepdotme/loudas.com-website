@@ -2,6 +2,7 @@
 /*
  * Variables:
  *   start: date in the form of YYYY-MM-DD (default 2020-03-17)
+ *   end: date in the form of YYYY-MM-DD (default "today" )
  *   name: plain text i.e. Paul (default Paul)
  *   display: days or weeks (default days)
  *
@@ -23,9 +24,18 @@ if (isset($_GET['start'])) {
 	}
 } else { $start_time = strtotime("2020-03-17"); }
 
-$now = time(); // or your date as well
+// get an end date (or use today as default)
+if (isset($_GET['end'])) {
+	if (preg_match("/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/",$_GET['end'])) {
+		$end_time = strtotime($_GET['end']);
+	} else {
+		$end_time = time();
+	}
+} else { $end_time = time(); }
+
+// $now = time(); // or your date as well
 $your_date = $start_time;
-$datediff = $now - $your_date;
+$datediff = $end_time - $your_date;
 $num_of_days = floor($datediff/(60*60*24))." days in isolation";
 $num_of_weeks = floor($datediff/(60*60*24*7))." weeks in isolation";
 
