@@ -16,7 +16,7 @@ No flights in or out, and all people ordered to stay home 😲
 
 I locked myself down a bit earlier than most as I have Asthma and chronic Bronchitis.  
 Of course I coded a wee timer to keep track of how long I've been in lock down 🤣  
-![covid-19 counter]({{ site.url }}/assets/manual_uploads/covid.php)
+![covid-19 counter]({{ site.url }}/assets/manual_uploads/covid.php?end=2020-05-21)
 
 So I'm setup at home, alone (after I left Helen Willard last year), with not much to do .. I wonder what I could do?  
 I could drink 🥂  
