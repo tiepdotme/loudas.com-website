@@ -66,9 +66,11 @@ include-npm-deps:
 	@cp node_modules/jquery/dist/jquery.min.js $(VENDOR_DIR)
 	@cp node_modules/popper.js/dist/umd/popper.min.js $(VENDOR_DIR)
 	@cp node_modules/bootstrap/dist/js/bootstrap.min.js $(VENDOR_DIR)
+	@cp node_modules/datatables.net/js/jquery.dataTables.min.js $(VENDOR_DIR)
 	@cp node_modules/jquery/dist/jquery.min.map $(JSBUNDLE_DIR)
 	@cp node_modules/popper.js/dist/umd/popper.min.js.map $(JSBUNDLE_DIR)
 	@cp node_modules/bootstrap/dist/js/bootstrap.min.js.map $(JSBUNDLE_DIR)
+
 	@echo "copying node files into $(VENDOR_DIR) and node map files into $(JSBUNDLE_DIR)"
 
 build: include-npm-deps
