@@ -425,7 +425,7 @@ img[rel~="lightbox"] {
 .headline:before,
 .headline:after {
     content: '';
-    border-right: 20px solid #fff;
+    border-right: 20px solid transparent;
     border-top: 15px solid #aaa;
     bottom: -15px;
     position: absolute;
