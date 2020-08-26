@@ -24,7 +24,7 @@ Well I was helping some people with Mandrake (or some other distro, I can’t re
 
 The name developed from there, and I thought it was very appropriate for the following reasons
 * I use a terminal for everything
-* I am a smoker, which could be terminal, and I am addicted
+* I <del>am</del> <em>was</em> (see below note) a smoker, which could be terminal, and I am addicted
 * I ride motorcycles, which could be terminal, and I am addicted
 * Many of my other hobbies / habits could be described the same way
 
@@ -36,5 +36,8 @@ Here's a couple of ways you can get in contact with me:
 <a href="{{ page.facebook }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Facebook"><img alt="Facebook" src="{{ site.url }}/assets/images/icons/social_coloured/021-facebook.svg" class="svg48" /></a>
 &nbsp; <a href="{{ page.instagram }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Instagram"><img alt="Instagram" src="{{ site.url }}/assets/images/icons/social_coloured/025-instagram.svg" class="svg48" /></a>
 &nbsp; <a href="{{ page.youtube }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Youtube"><img alt="facebook" src="{{ site.url }}/assets/images/icons/social_coloured/011-youtube.svg" class="svg48" /></a>
+<br />
+<small>I've fought with smoking most of my life 😥 <br />
+I've been smoke free since November 2019. I stopped in February 2019, then picked up the cigs agains during my Helen drama. WHen I finally left Helen, the next month I stopped smoking, and haven't since (except for a couple of drunken nights when someone handed me a lit cigarette).</small>
 </div>
 </div>
