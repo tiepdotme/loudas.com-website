@@ -31,6 +31,11 @@ pagination:
                                     <link itemprop="url" href="{{ site.url }}{{author.pic}}" />
                                 </div>
                             </div>
+                            <div class="d-none" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                                <span itemprop="name">{{ author.name }}</span>
+                                <img src="{{ site.url }}{{author.pic}}" itemprop="image" alt="Photo of {{ author.name }}"/>
+                                <span itemprop="jobTitle">{{ author.position }}</span>
+                            </div>
                           </a> - 
                             <a href="{{ author.facebook }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Facebook"><img alt="Facebook" src="{{ site.url }}/assets/images/icons/social_line/021-facebook.svg" class="svg16" /></a>
                             <a href="{{ author.instagram }}" target="_blank" data-toggle="tooltip" data-placement="bottom" data-original-title="Instagram"><img alt="Instagram" src="{{ site.url }}/assets/images/icons/social_line/025-instagram.svg" class="svg16" /></a>
