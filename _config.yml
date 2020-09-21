@@ -1,4 +1,4 @@
-url: https://www.loudas.com
+url: https://thanhlam.ga
 baseurl: /
 plugins: 
     - jekyll-paginate-v2
