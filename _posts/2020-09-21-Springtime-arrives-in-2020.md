@@ -70,8 +70,10 @@ OMG! 😮🤣😝
 Then up Pirongia.  
 {% include thumbnail.html img="me_teresa_pirongia.jpg" %}  
 
-I've not visited the snow since the beginning of the season, not sure whether I'll get to the snow again this year 🤷‍♂️ .
+Plenty of fishing.  
+{% include thumbnail.html img="2020-kahawai.jpg" %}  
 
+and of course .....  
 Lots of coffee drunk in the mild Winter weather though !  
 {% include thumbnail.html img="me_at_the_mount.jpg" %}  
 
@@ -82,6 +84,7 @@ Oh, and the motorbike is registered, and I've been out on my first ride this sea
 
 ## What's next ?
 
+I've not visited the snow since the beginning of the season, not sure whether I'll get to the snow again this year 🤷‍♂️ .
 🌨️ 🏔️ ⛄ ❄️  🏂 ⛷️
 
 I really need to visit the snow again!  
